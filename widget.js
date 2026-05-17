@@ -16,7 +16,7 @@
     container.classList.add('sq-shops-widget');
     container.innerHTML = '<div class="sq-shops-loading">Chargement de la carte…</div>';
 
-    fetch(dataSrc, { cache: 'no-cache' })
+    fetch(dataSrc, { cache: 'reload' })
       .then(function (r) {
         if (!r.ok) throw new Error('Fichier ' + dataSrc + ' introuvable (' + r.status + ')');
         return r.json();
