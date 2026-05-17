@@ -1,0 +1,222 @@
+/* SkiQuality - Carte magasins de location de ski */
+.sq-shops-widget {
+  --sq-primary: #0066cc;
+  --sq-primary-dark: #004a99;
+  --sq-bg: #ffffff;
+  --sq-bg-alt: #f7f9fc;
+  --sq-border: #e4e9f0;
+  --sq-text: #1a2538;
+  --sq-text-muted: #5b6b82;
+  --sq-radius: 12px;
+  --sq-shadow: 0 2px 12px rgba(20, 35, 60, 0.08);
+  font-family: inherit;
+  color: var(--sq-text);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.sq-shops-widget * { box-sizing: border-box; }
+
+.sq-shops-header {
+  margin-bottom: 1rem;
+}
+
+.sq-shops-header h3 {
+  margin: 0 0 .25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.sq-shops-header p {
+  margin: 0;
+  color: var(--sq-text-muted);
+  font-size: .95rem;
+}
+
+.sq-shops-count {
+  display: inline-block;
+  background: var(--sq-primary);
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: .8rem;
+  font-weight: 600;
+  margin-left: .5rem;
+  vertical-align: middle;
+}
+
+.sq-shops-map {
+  height: 450px;
+  width: 100%;
+  border-radius: var(--sq-radius);
+  border: 1px solid var(--sq-border);
+  box-shadow: var(--sq-shadow);
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.sq-shops-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.sq-shop-card {
+  background: var(--sq-bg);
+  border: 1px solid var(--sq-border);
+  border-radius: var(--sq-radius);
+  padding: 1rem 1.1rem;
+  cursor: pointer;
+  transition: all .2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.sq-shop-card:hover {
+  border-color: var(--sq-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--sq-shadow);
+}
+
+.sq-shop-card.is-active {
+  border-color: var(--sq-primary);
+  background: var(--sq-bg-alt);
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, .15);
+}
+
+.sq-shop-name {
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.sq-shop-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: var(--sq-primary);
+  color: #fff;
+  border-radius: 50%;
+  font-size: .75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.sq-shop-info {
+  display: flex;
+  align-items: flex-start;
+  gap: .4rem;
+  font-size: .9rem;
+  color: var(--sq-text-muted);
+  line-height: 1.4;
+}
+
+.sq-shop-info svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.sq-shop-info a {
+  color: var(--sq-primary);
+  text-decoration: none;
+}
+
+.sq-shop-info a:hover {
+  text-decoration: underline;
+}
+
+.sq-shop-actions {
+  display: flex;
+  gap: .5rem;
+  margin-top: .25rem;
+}
+
+.sq-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: .85rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid var(--sq-border);
+  background: var(--sq-bg);
+  color: var(--sq-text);
+  cursor: pointer;
+  transition: all .15s;
+}
+
+.sq-btn:hover {
+  background: var(--sq-bg-alt);
+  border-color: var(--sq-primary);
+  color: var(--sq-primary);
+}
+
+.sq-btn-primary {
+  background: var(--sq-primary);
+  border-color: var(--sq-primary);
+  color: #fff;
+}
+
+.sq-btn-primary:hover {
+  background: var(--sq-primary-dark);
+  border-color: var(--sq-primary-dark);
+  color: #fff;
+}
+
+.sq-shops-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--sq-text-muted);
+  background: var(--sq-bg-alt);
+  border-radius: var(--sq-radius);
+  border: 1px dashed var(--sq-border);
+}
+
+.sq-shops-loading {
+  text-align: center;
+  padding: 2rem;
+  color: var(--sq-text-muted);
+}
+
+/* Marqueurs numérotés Leaflet */
+.sq-marker {
+  background: var(--sq-primary);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50% 50% 50% 0;
+  width: 30px !important;
+  height: 30px !important;
+  transform: rotate(-45deg);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: .85rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+}
+
+.sq-marker span { transform: rotate(45deg); }
+
+.sq-marker.is-active {
+  background: #ff6b35;
+  width: 36px !important;
+  height: 36px !important;
+  font-size: .95rem;
+  z-index: 1000 !important;
+}
+
+@media (max-width: 600px) {
+  .sq-shops-map { height: 350px; }
+  .sq-shops-list { grid-template-columns: 1fr; }
+}

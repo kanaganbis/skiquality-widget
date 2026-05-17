@@ -1,0 +1,5908 @@
+{
+  "stations": {
+    "aillons-margeriaz": {
+      "name": "Aillons-Margériaz",
+      "center": [
+        45.642427,
+        6.062558
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4391",
+          "name": "Ekosport-Rent MARGERIAZ LOCATIONS",
+          "lat": 45.642427,
+          "lng": 6.062558,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4391?referer=skiquality.com",
+          "address": "Station Aillon-Margeriaz 1400 Immeuble Le Margeriaz"
+        }
+      ]
+    },
+    "aime": {
+      "name": "Aime-la-Plagne",
+      "center": [
+        45.55563,
+        6.64856
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4731",
+          "name": "Wocan Delivery - Aime la plagne",
+          "lat": 45.55563,
+          "lng": 6.64856,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4731?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "aime-la-plagne": {
+      "name": "La Plagne Aime 2000",
+      "center": [
+        45.51091,
+        6.66704
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4715",
+          "name": "Wocan Delivery - Plagne Aime 2000",
+          "lat": 45.51091,
+          "lng": 6.66704,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4715?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "albiez-montrond": {
+      "name": "Albiez Montrond",
+      "center": [
+        45.20866,
+        6.336301
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "314",
+          "name": "Aux Deux Frères",
+          "lat": 45.20866,
+          "lng": 6.336301,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/314?referer=skiquality.com",
+          "address": "Les Vernataux - Le mollard"
+        }
+      ]
+    },
+    "allos": {
+      "name": "Allos",
+      "center": [
+        44.24131,
+        6.627348
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1690",
+          "name": "Au Petit Allossard",
+          "lat": 44.24131,
+          "lng": 6.627348,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1690?referer=skiquality.com",
+          "address": "Rue Pré-Foire"
+        }
+      ]
+    },
+    "alpe-dhuez": {
+      "name": "Alpe d'Huez",
+      "center": [
+        45.092071,
+        6.069955
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "260",
+          "name": "Centre Station",
+          "lat": 45.093735,
+          "lng": 6.067753,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/260?referer=skiquality.com",
+          "address": "Route du Signal (Centre Station)"
+        },
+        {
+          "id": "2204",
+          "name": "Concept",
+          "lat": 45.089916,
+          "lng": 6.076174,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2204?referer=skiquality.com",
+          "address": "Centre commercial des Bergers"
+        },
+        {
+          "id": "265",
+          "name": "Cornerski",
+          "lat": 45.095928,
+          "lng": 6.06953,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/265?referer=skiquality.com",
+          "address": "Place du Cognet - Immeuble le Caren"
+        },
+        {
+          "id": "4691",
+          "name": "Ekosport-rent Hors Piste",
+          "lat": 45.095933,
+          "lng": 6.069973,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4691?referer=skiquality.com",
+          "address": "22 Place Maurice Rajon"
+        },
+        {
+          "id": "4320",
+          "name": "Ekosport-rent Les Bergers",
+          "lat": 45.090019,
+          "lng": 6.07642,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4320?referer=skiquality.com",
+          "address": "Centre commercial des Berger, 38750 Huez"
+        },
+        {
+          "id": "4633",
+          "name": "Ekosport-rent Ze Shop 1",
+          "lat": 45.090689,
+          "lng": 6.064571,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4633?referer=skiquality.com",
+          "address": "Place Joseph Paganon"
+        },
+        {
+          "id": "266",
+          "name": "Jeannot Sports",
+          "lat": 45.096218,
+          "lng": 6.070747,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/266?referer=skiquality.com",
+          "address": "Chalet les Cabris - 7, rue de Fontbelle"
+        },
+        {
+          "id": "1550",
+          "name": "L'Eclose",
+          "lat": 45.087688,
+          "lng": 6.06825,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1550?referer=skiquality.com",
+          "address": "Résidence les 4 Soleils, Rue du 93e R.A.M."
+        },
+        {
+          "id": "261",
+          "name": "Ours Blanc",
+          "lat": 45.090641,
+          "lng": 6.067699,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/261?referer=skiquality.com",
+          "address": "Galerie de l'Ours Blanc"
+        },
+        {
+          "id": "4876",
+          "name": "Precision Ski Ski Dream",
+          "lat": 45.09639,
+          "lng": 6.06949,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4876?referer=skiquality.com",
+          "address": "69 rue du Pic Blanc"
+        },
+        {
+          "id": "262",
+          "name": "Premium Sport",
+          "lat": 45.090897,
+          "lng": 6.063416,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/262?referer=skiquality.com",
+          "address": "1153 Route d'Huez (Vieil Alpe)"
+        },
+        {
+          "id": "267",
+          "name": "Rocky Sports (L'éclose)",
+          "lat": 45.087925,
+          "lng": 6.067693,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/267?referer=skiquality.com",
+          "address": "L'Eclose -  524 rue du 93ème RAM"
+        },
+        {
+          "id": "2310",
+          "name": "Ski Rep Rond Point des Pistes Richard 3 Sports",
+          "lat": 45.096802,
+          "lng": 6.0697,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2310?referer=skiquality.com",
+          "address": "Rond Point des Pistes - 105 rue du Pic Blanc"
+        },
+        {
+          "id": "3970",
+          "name": "Ski Republic Les Bergers Nevada Sports",
+          "lat": 45.089664,
+          "lng": 6.07668,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3970?referer=skiquality.com",
+          "address": "Centre commercial les Bergers"
+        },
+        {
+          "id": "263",
+          "name": "Sport 2000 Les Bergers (Olivier Sports)",
+          "lat": 45.089996,
+          "lng": 6.076608,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/263?referer=skiquality.com",
+          "address": "Centre Commercial des Bergers - Situé aux pieds des pistes et résidences"
+        },
+        {
+          "id": "264",
+          "name": "Ze Shop 2",
+          "lat": 45.090691,
+          "lng": 6.064571,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/264?referer=skiquality.com",
+          "address": "Place Joseph Paganon- Vieil Alpe"
+        }
+      ]
+    },
+    "arc-1600": {
+      "name": "Arc 1600",
+      "center": [
+        45.595905,
+        6.792895
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3556",
+          "name": "Christina Sports",
+          "lat": 45.595539,
+          "lng": 6.792722,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3556?referer=skiquality.com",
+          "address": "12 Place du soleil - Funiculaire Arc-en-ciel"
+        },
+        {
+          "id": "2193",
+          "name": "Precision Ski Roc Belle Face",
+          "lat": 45.596775,
+          "lng": 6.794003,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2193?referer=skiquality.com",
+          "address": "Résidence Les 3 Arcs"
+        },
+        {
+          "id": "4729",
+          "name": "Wocan Delivery - Arc 1600",
+          "lat": 45.5954,
+          "lng": 6.79196,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4729?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "arc-1800": {
+      "name": "Arc 1800",
+      "center": [
+        45.573729,
+        6.779928
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2130",
+          "name": "Arcadia",
+          "lat": 45.575581,
+          "lng": 6.780035,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2130?referer=skiquality.com",
+          "address": "Immeuble Bellecote - Le Charvet"
+        },
+        {
+          "id": "1935",
+          "name": "Delay Savoie Sport",
+          "lat": 45.572968,
+          "lng": 6.778254,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1935?referer=skiquality.com",
+          "address": "Immeuble les tournavelles - Les Villards"
+        },
+        {
+          "id": "2175",
+          "name": "Precision ski  EdenArc Le Chantel",
+          "lat": 45.574589,
+          "lng": 6.78459,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2175?referer=skiquality.com",
+          "address": "Résidence Odalys, Lieu dit le Chantel"
+        },
+        {
+          "id": "2156",
+          "name": "Precision Ski Charmettoger",
+          "lat": 45.568642,
+          "lng": 6.777533,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2156?referer=skiquality.com",
+          "address": "Residence L’aiguille grive 3, Les Arcs 1800"
+        },
+        {
+          "id": "2155",
+          "name": "Precision Ski Galerie du Charvet",
+          "lat": 45.576305,
+          "lng": 6.781115,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2155?referer=skiquality.com",
+          "address": "Galerie Marchande Pierra Menta"
+        },
+        {
+          "id": "2154",
+          "name": "Precision Ski Villards Place Basse",
+          "lat": 45.572361,
+          "lng": 6.77747,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2154?referer=skiquality.com",
+          "address": "Centre commercial Aiguilles des Glaciers"
+        },
+        {
+          "id": "4727",
+          "name": "Wocan Delivery - Arc 1800",
+          "lat": 45.57566,
+          "lng": 6.7805,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4727?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "arc-1950": {
+      "name": "Arc 1950",
+      "center": [
+        45.572428,
+        6.827142
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2345",
+          "name": "Precision Ski Le Manoir",
+          "lat": 45.57206,
+          "lng": 6.82789,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2345?referer=skiquality.com",
+          "address": "Résidence Le Manoir de Savoie"
+        },
+        {
+          "id": "2502",
+          "name": "Precision Ski Precision 1950",
+          "lat": 45.57217,
+          "lng": 6.827045,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2502?referer=skiquality.com",
+          "address": "Résidence Les Hameaux du Glacier B"
+        },
+        {
+          "id": "2157",
+          "name": "Ski Freeride - Arcs 1950",
+          "lat": 45.572266,
+          "lng": 6.826667,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2157?referer=skiquality.com",
+          "address": "Refuge du Montagnard"
+        },
+        {
+          "id": "2158",
+          "name": "Ski Republic Spirit",
+          "lat": 45.572262,
+          "lng": 6.8275,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2158?referer=skiquality.com",
+          "address": "Jardin de la Cascade"
+        },
+        {
+          "id": "4725",
+          "name": "Wocan Delivery - Arc 1950",
+          "lat": 45.57338,
+          "lng": 6.82661,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4725?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "arc-2000": {
+      "name": "Arc 2000",
+      "center": [
+        45.572112,
+        6.832457
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1226",
+          "name": "Arc 2000 Sport",
+          "lat": 45.573288,
+          "lng": 6.831779,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1226?referer=skiquality.com",
+          "address": "Chalet de l'ours"
+        },
+        {
+          "id": "1945",
+          "name": "Place Haute",
+          "lat": 45.571056,
+          "lng": 6.832041,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1945?referer=skiquality.com",
+          "address": "Hotel aiguille rouge  - Place haute"
+        },
+        {
+          "id": "2346",
+          "name": "Precision Ski Front de Neige",
+          "lat": 45.571991,
+          "lng": 6.83355,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2346?referer=skiquality.com",
+          "address": "Place Basse"
+        }
+      ]
+    },
+    "areches-beauford": {
+      "name": "Arêches-Beaufort",
+      "center": [
+        45.686714,
+        6.56872
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "315",
+          "name": "Avocat Sport",
+          "lat": 45.686714,
+          "lng": 6.56872,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/315?referer=skiquality.com",
+          "address": "404 rue Léontine Vibert  ARECHES"
+        }
+      ]
+    },
+    "argentiere": {
+      "name": "Argentiere",
+      "center": [
+        45.980988,
+        6.925308
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1228",
+          "name": "Stamos Sports",
+          "lat": 45.980988,
+          "lng": 6.925308,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1228?referer=skiquality.com",
+          "address": "Centre Commercial Grand Roc"
+        }
+      ]
+    },
+    "auris-en-oisans": {
+      "name": "Auris en Oisans",
+      "center": [
+        45.056141,
+        6.078209
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4308",
+          "name": "Ekosport-rent Auris Ski",
+          "lat": 45.056141,
+          "lng": 6.078209,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4308?referer=skiquality.com",
+          "address": "Résidence Odalys - Zac des Orgières, Les Orgières"
+        }
+      ]
+    },
+    "auron": {
+      "name": "Auron",
+      "center": [
+        44.22556,
+        6.931408
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1871",
+          "name": "Adventmount",
+          "lat": 44.225258,
+          "lng": 6.931409,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1871?referer=skiquality.com",
+          "address": "Place du centre - Auron"
+        },
+        {
+          "id": "1872",
+          "name": "Flow Sport",
+          "lat": 44.22683,
+          "lng": 6.929572,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1872?referer=skiquality.com",
+          "address": "Boulevard Georges Pompidou - Centre Station"
+        },
+        {
+          "id": "2209",
+          "name": "Georges Sport",
+          "lat": 44.225307,
+          "lng": 6.931786,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2209?referer=skiquality.com",
+          "address": "Place centrale"
+        },
+        {
+          "id": "3857",
+          "name": "Ski Republic Centre Station White Spirit",
+          "lat": 44.224846,
+          "lng": 6.932863,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3857?referer=skiquality.com",
+          "address": "Immeuble l'Annapurna Boulevard Georges Pompidou - Place d'Auron"
+        }
+      ]
+    },
+    "aussois": {
+      "name": "Aussois",
+      "center": [
+        45.230091,
+        6.7411
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "316",
+          "name": "Aussois Sports",
+          "lat": 45.230091,
+          "lng": 6.7411,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/316?referer=skiquality.com",
+          "address": "20 Bis Rue En Haut"
+        }
+      ]
+    },
+    "avoriaz": {
+      "name": "Avoriaz",
+      "center": [
+        46.191722,
+        6.776337
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3571",
+          "name": "360 Skishop",
+          "lat": 46.19231,
+          "lng": 6.7751,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3571?referer=skiquality.com",
+          "address": "33 promenade du Festival"
+        },
+        {
+          "id": "3308",
+          "name": "7 Place Centrale",
+          "lat": 46.191457,
+          "lng": 6.777041,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3308?referer=skiquality.com",
+          "address": "7, place Centrale"
+        },
+        {
+          "id": "2541",
+          "name": "Crozats Sports",
+          "lat": 46.19245,
+          "lng": 6.77615,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2541?referer=skiquality.com",
+          "address": "135 Quartier des crozats - BELAMBRA - Les Alpages"
+        },
+        {
+          "id": "4811",
+          "name": "Ekosport-Rent Antoine Ski",
+          "lat": 46.19179,
+          "lng": 6.776506,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4811?referer=skiquality.com",
+          "address": "139 Promenade du Festival"
+        },
+        {
+          "id": "3574",
+          "name": "Le 720",
+          "lat": 46.191,
+          "lng": 6.77691,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3574?referer=skiquality.com",
+          "address": "55, place Centrale"
+        },
+        {
+          "id": "1483",
+          "name": "Les Fontaines Blanches",
+          "lat": 46.192184,
+          "lng": 6.775603,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1483?referer=skiquality.com",
+          "address": "7, Promenade du Festival"
+        },
+        {
+          "id": "2305",
+          "name": "Ski Republic Centre Station Pelen Sport",
+          "lat": 46.190861,
+          "lng": 6.77705,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2305?referer=skiquality.com",
+          "address": "Immeuble les Portes du Soleil"
+        }
+      ]
+    },
+    "ax-les-thermes": {
+      "name": "Ax les Thermes",
+      "center": [
+        42.729191,
+        1.818274
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1853",
+          "name": "L'Eskimo Sport",
+          "lat": 42.729191,
+          "lng": 1.818274,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1853?referer=skiquality.com",
+          "address": "2 quartier du Couzillou, N2020, 09110 Savignac-les-Ormeaux"
+        }
+      ]
+    },
+    "bareges": {
+      "name": "Barèges",
+      "center": [
+        42.896214,
+        0.063623
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "292",
+          "name": "Locaski",
+          "lat": 42.896214,
+          "lng": 0.063623,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/292?referer=skiquality.com",
+          "address": "4 Rue Ramon"
+        }
+      ]
+    },
+    "bernex": {
+      "name": "Bernex",
+      "center": [
+        46.356995,
+        6.689366
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "191",
+          "name": "Super Bernex Sport",
+          "lat": 46.356995,
+          "lng": 6.689366,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/191?referer=skiquality.com",
+          "address": "1155 route du télésiège"
+        }
+      ]
+    },
+    "bessans": {
+      "name": "Bessans",
+      "center": [
+        45.322346,
+        6.998825
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "317",
+          "name": "Tracq Sports",
+          "lat": 45.322346,
+          "lng": 6.998825,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/317?referer=skiquality.com",
+          "address": "Rue Saint Etienne"
+        }
+      ]
+    },
+    "bolquere": {
+      "name": "Bolquere Pyrennees 2000",
+      "center": [
+        42.519421,
+        2.060019
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "306",
+          "name": "Evasion",
+          "lat": 42.519421,
+          "lng": 2.060019,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/306?referer=skiquality.com",
+          "address": "23, 25 Avenue du serrât de l'Ours"
+        }
+      ]
+    },
+    "bourg-saint-maurice": {
+      "name": "Bourg Saint Maurice",
+      "center": [
+        45.617126,
+        6.770206
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2344",
+          "name": "Precision Ski Bourg Saint Maurice - Centre",
+          "lat": 45.619049,
+          "lng": 6.770767,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2344?referer=skiquality.com",
+          "address": "Mountain Tribu 43, Place de la gare"
+        },
+        {
+          "id": "4186",
+          "name": "Sports 73",
+          "lat": 45.6147,
+          "lng": 6.7706,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4186?referer=skiquality.com",
+          "address": "406 route de Montrignon"
+        },
+        {
+          "id": "4733",
+          "name": "Wocan Delivery - Bourg saint maurice",
+          "lat": 45.61763,
+          "lng": 6.76925,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4733?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "bourisp": {
+      "name": "Bourisp",
+      "center": [
+        42.832298,
+        0.339288
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2337",
+          "name": "Ski Republic Hameau des Granges - Kangri Sport",
+          "lat": 42.832298,
+          "lng": 0.339288,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2337?referer=skiquality.com",
+          "address": "Hameaux des Granges - Bourisp 65170 Saint Lary"
+        }
+      ]
+    },
+    "bozel": {
+      "name": "Bozel",
+      "center": [
+        45.44231,
+        6.648335
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4688",
+          "name": "Ekosport-rent Les Luges a Foin",
+          "lat": 45.442393,
+          "lng": 6.648956,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4688?referer=skiquality.com",
+          "address": "10 rue Jean Jaurès 73350 Bozel"
+        },
+        {
+          "id": "320",
+          "name": "La Cage O Sport",
+          "lat": 45.442226,
+          "lng": 6.647715,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/320?referer=skiquality.com",
+          "address": "Les Soldanelles"
+        }
+      ]
+    },
+    "brides-les-bains": {
+      "name": "Brides les Bains",
+      "center": [
+        45.452292,
+        6.565508
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4259",
+          "name": "Centre Station",
+          "lat": 45.452259,
+          "lng": 6.56727,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4259?referer=skiquality.com",
+          "address": "rue Emile Machet"
+        },
+        {
+          "id": "1932",
+          "name": "Happy Mountains",
+          "lat": 45.452744,
+          "lng": 6.565202,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1932?referer=skiquality.com",
+          "address": "39 Rue Aristide Briand"
+        },
+        {
+          "id": "2169",
+          "name": "Precision Ski Brides les Bains",
+          "lat": 45.452339,
+          "lng": 6.56691,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2169?referer=skiquality.com",
+          "address": "Rue Emile Machet"
+        },
+        {
+          "id": "1526",
+          "name": "Résidence les Cybèles",
+          "lat": 45.453568,
+          "lng": 6.562378,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1526?referer=skiquality.com",
+          "address": "Résidence Cybèle"
+        },
+        {
+          "id": "4258",
+          "name": "Télécabine de l'Olympe",
+          "lat": 45.45055,
+          "lng": 6.56578,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4258?referer=skiquality.com",
+          "address": "Route de l'Olympe"
+        }
+      ]
+    },
+    "cauterets": {
+      "name": "Cauterets",
+      "center": [
+        42.889101,
+        -0.113967
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1934",
+          "name": "Côté Ski",
+          "lat": 42.890045,
+          "lng": -0.113292,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1934?referer=skiquality.com",
+          "address": "24 Rue Richelieu"
+        },
+        {
+          "id": "4321",
+          "name": "Ekosport-rent Pyrandoski",
+          "lat": 42.888371,
+          "lng": -0.11443,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4321?referer=skiquality.com",
+          "address": "7 Place Marechal Foch"
+        },
+        {
+          "id": "293",
+          "name": "L'Atelier du Ski",
+          "lat": 42.888887,
+          "lng": -0.11418,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/293?referer=skiquality.com",
+          "address": "4 Avenue du General Leclerc"
+        }
+      ]
+    },
+    "centron": {
+      "name": "Centron",
+      "center": [
+        45.5367,
+        6.59587
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5011",
+          "name": "Wocan Delivery - Centron",
+          "lat": 45.5367,
+          "lng": 6.59587,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5011?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "chamonix": {
+      "name": "Chamonix",
+      "center": [
+        45.9285,
+        6.876236
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2103",
+          "name": "4810 By Pitte",
+          "lat": 45.92366,
+          "lng": 6.86986,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2103?referer=skiquality.com",
+          "address": "12 avenue Michel CROZ"
+        },
+        {
+          "id": "2572",
+          "name": "Cham'sport Mummery Le Paradis",
+          "lat": 45.925484,
+          "lng": 6.869435,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2572?referer=skiquality.com",
+          "address": "28, impasse des primevères"
+        },
+        {
+          "id": "2217",
+          "name": "Cham'sport Savoy",
+          "lat": 45.927162,
+          "lng": 6.870329,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2217?referer=skiquality.com",
+          "address": "432, Rue Joseph Vallot"
+        },
+        {
+          "id": "4810",
+          "name": "Ekosport-Rent O'Centre",
+          "lat": 45.923487,
+          "lng": 6.8693,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4810?referer=skiquality.com",
+          "address": "23 Place de l'église"
+        },
+        {
+          "id": "4793",
+          "name": "Ekosport-Rent Skimax",
+          "lat": 45.976148,
+          "lng": 6.921754,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4793?referer=skiquality.com",
+          "address": "34 Chemin des Arberons"
+        },
+        {
+          "id": "1229",
+          "name": "Location des Planards",
+          "lat": 45.924191,
+          "lng": 6.879065,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1229?referer=skiquality.com",
+          "address": "350 Chemin pied du Grépon - Piste des planards"
+        },
+        {
+          "id": "1274",
+          "name": "O74 (Aiguille du Midi)",
+          "lat": 45.918461,
+          "lng": 6.868906,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1274?referer=skiquality.com",
+          "address": "92, place Edmond Desailloud"
+        },
+        {
+          "id": "2314",
+          "name": "Ski Republic Centre Station Technique Extrême",
+          "lat": 45.919411,
+          "lng": 6.86882,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2314?referer=skiquality.com",
+          "address": "200 avenue de l'Aiguille du Midi"
+        },
+        {
+          "id": "4660",
+          "name": "Sport 2000 Cham'Sport Michel Croz Centre",
+          "lat": 45.92314,
+          "lng": 6.87188,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4660?referer=skiquality.com",
+          "address": "168 avenue Michel Croz"
+        },
+        {
+          "id": "2215",
+          "name": "SPORT 2000 La Ginabelle Centre",
+          "lat": 45.923855,
+          "lng": 6.873011,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2215?referer=skiquality.com",
+          "address": "120, place du poilu"
+        }
+      ]
+    },
+    "champagny-en-vanoise": {
+      "name": "Champagny en Vanoise",
+      "center": [
+        45.455883,
+        6.694217
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4042",
+          "name": "Alpina Ski Shop",
+          "lat": 45.456642,
+          "lng": 6.693892,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4042?referer=skiquality.com",
+          "address": "Batiment Club Alpina - Rue des Hauts du Crey"
+        },
+        {
+          "id": "322",
+          "name": "Belvédère Sports",
+          "lat": 45.455296,
+          "lng": 6.694888,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/322?referer=skiquality.com",
+          "address": "Le Crey"
+        },
+        {
+          "id": "4719",
+          "name": "Wocan Delivery - Champagny en Vanoise",
+          "lat": 45.45571,
+          "lng": 6.69387,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4719?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "chamrousse": {
+      "name": "Chamrousse",
+      "center": [
+        45.109123,
+        5.875978
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3832",
+          "name": "Ski Republic Centre Station Le Camp de Base",
+          "lat": 45.109123,
+          "lng": 5.875978,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3832?referer=skiquality.com",
+          "address": "480 Avenue du père Tasse, Roche Béranger"
+        }
+      ]
+    },
+    "chamrousse-1650": {
+      "name": "Chamrousse 1650",
+      "center": [
+        45.12572,
+        5.878209
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4330",
+          "name": "Ekosport-rent Le QG",
+          "lat": 45.124866,
+          "lng": 5.878259,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4330?referer=skiquality.com",
+          "address": "49 Rue des Gentianes, Le Recoin"
+        },
+        {
+          "id": "4025",
+          "name": "Jean François Sport",
+          "lat": 45.126575,
+          "lng": 5.878159,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4025?referer=skiquality.com",
+          "address": "76, Avenue Henry Duhamel"
+        }
+      ]
+    },
+    "chamrousse-1750": {
+      "name": "Chamrousse 1750",
+      "center": [
+        45.113586,
+        5.878688
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2348",
+          "name": "We Ski",
+          "lat": 45.113586,
+          "lng": 5.878688,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2348?referer=skiquality.com",
+          "address": "733 Route de la croisette"
+        }
+      ]
+    },
+    "chatel": {
+      "name": "Châtel",
+      "center": [
+        46.264589,
+        6.835878
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2464",
+          "name": "Daniel Cruz Sports",
+          "lat": 46.262623,
+          "lng": 6.839455,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2464?referer=skiquality.com",
+          "address": "234, chemin de l'Etringa"
+        },
+        {
+          "id": "197",
+          "name": "Germain Sports (Centre Station)",
+          "lat": 46.267208,
+          "lng": 6.841962,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/197?referer=skiquality.com",
+          "address": "19 Chemin sous le Crêt - Centre station (derrière la \"Boulangerie GRILLET\")"
+        },
+        {
+          "id": "198",
+          "name": "Germain Sports (Linga)",
+          "lat": 46.255932,
+          "lng": 6.823463,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/198?referer=skiquality.com",
+          "address": "184 Route de Pré-le-Joux - Le Linga - à côté du restaurant \"La Ripaille\""
+        },
+        {
+          "id": "4074",
+          "name": "Ski Republic Centre Station l'Atelier du Ski",
+          "lat": 46.272591,
+          "lng": 6.83863,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4074?referer=skiquality.com",
+          "address": "608 Route de Thonon"
+        }
+      ]
+    },
+    "combloux": {
+      "name": "Combloux",
+      "center": [
+        45.892246,
+        6.62494
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "199",
+          "name": "Marin Sports les Pistes",
+          "lat": 45.892246,
+          "lng": 6.62494,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/199?referer=skiquality.com",
+          "address": "2804 route de la cry cuchet - Pied des Pistes"
+        }
+      ]
+    },
+    "correncon-en-vercors": {
+      "name": "Correncon en Vercors",
+      "center": [
+        45.029572,
+        5.524488
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "272",
+          "name": "Guillet Sport",
+          "lat": 45.029572,
+          "lng": 5.524488,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/272?referer=skiquality.com",
+          "address": "296 Route du Clos de la Balme"
+        }
+      ]
+    },
+    "courbaton": {
+      "name": "Courbaton",
+      "center": [
+        45.60323,
+        6.79685
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4941",
+          "name": "Wocan Delivery - Courbaton",
+          "lat": 45.60323,
+          "lng": 6.79685,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4941?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "courchevel-1300": {
+      "name": "Courchevel 1300",
+      "center": [
+        45.433163,
+        6.623432
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "323",
+          "name": "Sport 2000 White Storm 1300",
+          "lat": 45.433163,
+          "lng": 6.623432,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/323?referer=skiquality.com",
+          "address": "Immeuble \"l'Or Blanc\" - Le Praz"
+        }
+      ]
+    },
+    "courchevel-1650": {
+      "name": "Courchevel 1650",
+      "center": [
+        45.414684,
+        6.649914
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2173",
+          "name": "Precision Ski Moriond",
+          "lat": 45.415401,
+          "lng": 6.65079,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2173?referer=skiquality.com",
+          "address": "Immeuble de l'Ourse Bleue, Route de Courchevel 1850,"
+        },
+        {
+          "id": "1234",
+          "name": "Ski Plus (La Résidence)",
+          "lat": 45.417179,
+          "lng": 6.650583,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1234?referer=skiquality.com",
+          "address": "Immeuble la Résidence"
+        },
+        {
+          "id": "4332",
+          "name": "White Storm Ariondaz",
+          "lat": 45.411472,
+          "lng": 6.64837,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4332?referer=skiquality.com",
+          "address": "Rue de l'Ariondaz"
+        }
+      ]
+    },
+    "courchevel-1850": {
+      "name": "Courchevel 1850",
+      "center": [
+        45.41557,
+        6.633373
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3220",
+          "name": "Le Camp de Base - Sarl Technic",
+          "lat": 45.415848,
+          "lng": 6.630892,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3220?referer=skiquality.com",
+          "address": "Le Forum - Niveau 0 - magasin Le Camp de Base"
+        },
+        {
+          "id": "326",
+          "name": "White Storm 1850",
+          "lat": 45.415291,
+          "lng": 6.635853,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/326?referer=skiquality.com",
+          "address": "Place du Rocher"
+        }
+      ]
+    },
+    "crest-voland": {
+      "name": "Crest Voland",
+      "center": [
+        45.794403,
+        6.505034
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "328",
+          "name": "Dumoulin Sports",
+          "lat": 45.794403,
+          "lng": 6.505034,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/328?referer=skiquality.com",
+          "address": "51 chemin des skieurs"
+        }
+      ]
+    },
+    "crete-cote": {
+      "name": "Crête côté",
+      "center": [
+        45.51763,
+        6.67608
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4961",
+          "name": "Wocan Delivery - Crête côté",
+          "lat": 45.51763,
+          "lng": 6.67608,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4961?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "embrun": {
+      "name": "Embrun",
+      "center": [
+        44.564346,
+        6.495564
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "237",
+          "name": "Grangeot Sport",
+          "lat": 44.564346,
+          "lng": 6.495564,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/237?referer=skiquality.com",
+          "address": "8 Rue Clovis Hugues (angle place Barthelon)"
+        }
+      ]
+    },
+    "enchastrayes": {
+      "name": "Enchastrayes",
+      "center": [
+        44.372256,
+        6.680363
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4799",
+          "name": "Family Sport",
+          "lat": 44.372256,
+          "lng": 6.680363,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4799?referer=skiquality.com",
+          "address": "immeuble LE SALTO RUE DE LA SAVONNETTE"
+        }
+      ]
+    },
+    "feissons-sur-salins": {
+      "name": "Feissons-sur-salins",
+      "center": [
+        45.47054,
+        6.56061
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5015",
+          "name": "Wocan Delivery - Feissons-sur-salins",
+          "lat": 45.47054,
+          "lng": 6.56061,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5015?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "flaine": {
+      "name": "Flaine",
+      "center": [
+        46.006846,
+        6.686799
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "201",
+          "name": "Flaine Super Ski (Forêt)",
+          "lat": 46.007286,
+          "lng": 6.690632,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/201?referer=skiquality.com",
+          "address": "Galerie Marchande - Flaine Forêt"
+        },
+        {
+          "id": "202",
+          "name": "Flaine Super Ski (Forum)",
+          "lat": 46.004704,
+          "lng": 6.695461,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/202?referer=skiquality.com",
+          "address": "Immeuble Aldebaran"
+        },
+        {
+          "id": "1867",
+          "name": "Ski Shop",
+          "lat": 46.008549,
+          "lng": 6.674303,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1867?referer=skiquality.com",
+          "address": "Résidence Les Portes du Grand Massif"
+        }
+      ]
+    },
+    "font-romeu-odeillo-via": {
+      "name": "Font-Romeu-Odeillo-Via",
+      "center": [
+        42.502652,
+        2.033748
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5031",
+          "name": "Ekosport-Rent Le Local",
+          "lat": 42.504476,
+          "lng": 2.039822,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5031?referer=skiquality.com",
+          "address": "23 avenue Emmanuel Brousse"
+        },
+        {
+          "id": "4667",
+          "name": "Ski Republic Ecobike Sport Shop",
+          "lat": 42.504181,
+          "lng": 2.043387,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4667?referer=skiquality.com",
+          "address": "Villa St Paul, 7 rue Calvet 66210 Font-Romeu"
+        },
+        {
+          "id": "309",
+          "name": "Sports Mountains",
+          "lat": 42.503944,
+          "lng": 2.03886,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/309?referer=skiquality.com",
+          "address": "2 Avenue Emmanuel Brousse"
+        },
+        {
+          "id": "307",
+          "name": "Sylbe Sports",
+          "lat": 42.498009,
+          "lng": 2.012921,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/307?referer=skiquality.com",
+          "address": "Rond Point d'Egat - CC Super U - RN10"
+        }
+      ]
+    },
+    "gourette": {
+      "name": "Gourette",
+      "center": [
+        42.95832,
+        -0.332614
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2128",
+          "name": "Le Caribou Pyrénéen",
+          "lat": 42.957897,
+          "lng": -0.332686,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2128?referer=skiquality.com",
+          "address": "Résidence les Arcizettes"
+        },
+        {
+          "id": "4076",
+          "name": "Ski Republic Le Portillo - Portillo Sport",
+          "lat": 42.958744,
+          "lng": -0.332542,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4076?referer=skiquality.com",
+          "address": "Résidence Le Portillo - Route du col d’Aubisque"
+        }
+      ]
+    },
+    "granier": {
+      "name": "Granier",
+      "center": [
+        45.57251,
+        6.65071
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5013",
+          "name": "Wocan Delivery - Granier",
+          "lat": 45.57251,
+          "lng": 6.65071,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5013?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "hauteluce": {
+      "name": "Hauteluce",
+      "center": [
+        45.757641,
+        6.540416
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4785",
+          "name": "Ekosport-Rent Le Skishop",
+          "lat": 45.757641,
+          "lng": 6.540416,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4785?referer=skiquality.com",
+          "address": "10 Avenue des Cimes, Les Saisies"
+        }
+      ]
+    },
+    "hauteville": {
+      "name": "Hauteville",
+      "center": [
+        45.59621,
+        6.76056
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4905",
+          "name": "Wocan Delivery - Hauteville",
+          "lat": 45.59621,
+          "lng": 6.76056,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4905?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "isola-2000": {
+      "name": "Isola 2000",
+      "center": [
+        44.184871,
+        7.159823
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4802",
+          "name": "Ekosport-Rent Ski Service",
+          "lat": 44.184614,
+          "lng": 7.1606,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4802?referer=skiquality.com",
+          "address": "Le Tavels Front de Neige, Galerie Marchande"
+        },
+        {
+          "id": "179",
+          "name": "Quartz Sport",
+          "lat": 44.184753,
+          "lng": 7.159667,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/179?referer=skiquality.com",
+          "address": "Le Saint Pierre  Galerie Marchande"
+        },
+        {
+          "id": "2319",
+          "name": "Ski Republic Le Chastillon Magic Snow",
+          "lat": 44.185505,
+          "lng": 7.158427,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2319?referer=skiquality.com",
+          "address": "Immeuble la Lombarde"
+        },
+        {
+          "id": "2375",
+          "name": "Snow Shop",
+          "lat": 44.184612,
+          "lng": 7.1606,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2375?referer=skiquality.com",
+          "address": "Front de neige - Immeuble Tavels"
+        }
+      ]
+    },
+    "jougnes": {
+      "name": "Jougne",
+      "center": [
+        46.741264,
+        6.372853
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3120",
+          "name": "Ski Republic 3 Rue du Télésiège  Sandona Sport",
+          "lat": 46.741264,
+          "lng": 6.372853,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3120?referer=skiquality.com",
+          "address": "3 Rue du télésiège - Secteur de Piquemiette"
+        }
+      ]
+    },
+    "la-bresse": {
+      "name": "La Bresse",
+      "center": [
+        48.051781,
+        6.943731
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3498",
+          "name": "Lispach Evasion",
+          "lat": 48.051781,
+          "lng": 6.943731,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3498?referer=skiquality.com",
+          "address": "42, route de Lispach"
+        }
+      ]
+    },
+    "la-chapelle-dabondance": {
+      "name": "La Chapelle d'Abondance",
+      "center": [
+        46.296131,
+        6.786538
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2320",
+          "name": "Ski Republic Centre Village Les Rappes Sports",
+          "lat": 46.296131,
+          "lng": 6.786538,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2320?referer=skiquality.com",
+          "address": "130 Route de Chevenne"
+        }
+      ]
+    },
+    "la-chenarie": {
+      "name": "La chénarie",
+      "center": [
+        45.53312,
+        6.7773
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4932",
+          "name": "Wocan Delivery - La Chénarie",
+          "lat": 45.53312,
+          "lng": 6.7773,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4932?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-clusaz": {
+      "name": "La Clusaz",
+      "center": [
+        45.905421,
+        6.426665
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4750",
+          "name": "Alpine ride",
+          "lat": 45.9061,
+          "lng": 6.42964,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4750?referer=skiquality.com",
+          "address": "461 Route du Col des Aravis"
+        },
+        {
+          "id": "3726",
+          "name": "Au Sportif",
+          "lat": 45.905121,
+          "lng": 6.424693,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3726?referer=skiquality.com",
+          "address": "47, route du col des Aravis"
+        },
+        {
+          "id": "4809",
+          "name": "Ekosport-Rent Versant Est",
+          "lat": 45.905038,
+          "lng": 6.42499,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4809?referer=skiquality.com",
+          "address": "24 place du Petit Casino"
+        },
+        {
+          "id": "3086",
+          "name": "Passion Glisse",
+          "lat": 45.904655,
+          "lng": 6.424393,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3086?referer=skiquality.com",
+          "address": "6 Place Yves Pollet Villard - Résidence du centre"
+        },
+        {
+          "id": "4877",
+          "name": "Ski Republic Araviski",
+          "lat": 45.90619,
+          "lng": 6.42961,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4877?referer=skiquality.com",
+          "address": "30 place de la Perrière"
+        }
+      ]
+    },
+    "la-combaz": {
+      "name": "La Combaz",
+      "center": [
+        45.61685,
+        6.85682
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5003",
+          "name": "Wocan Delivery - La Combaz",
+          "lat": 45.61685,
+          "lng": 6.85682,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5003?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-cote-2000": {
+      "name": "La Côte 2000",
+      "center": [
+        45.045635,
+        5.560086
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "287",
+          "name": "Guillet Sport (Skirama 2000)",
+          "lat": 45.045635,
+          "lng": 5.560086,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/287?referer=skiquality.com",
+          "address": "Le Balcon de Villard"
+        }
+      ]
+    },
+    "la-croisette": {
+      "name": "La croisette",
+      "center": [
+        45.57975,
+        6.77969
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4939",
+          "name": "Wocan Delivery -La Croisette",
+          "lat": 45.57975,
+          "lng": 6.77969,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4939?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-foux-dallos": {
+      "name": "La Foux d'Allos",
+      "center": [
+        44.290627,
+        6.568919
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4692",
+          "name": "Ekosport-rent Foux De Ski",
+          "lat": 44.289974,
+          "lng": 6.568579,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4692?referer=skiquality.com",
+          "address": "Étoile des neiges"
+        },
+        {
+          "id": "5027",
+          "name": "Precision Ski  Centre Station Val d'Allos Sport",
+          "lat": 44.29128,
+          "lng": 6.56926,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5027?referer=skiquality.com",
+          "address": "Les Marmottes 2, 1077 route Les Sources du Verdon"
+        }
+      ]
+    },
+    "la-juoue-du-loup": {
+      "name": "La Joue du Loup",
+      "center": [
+        44.687748,
+        5.892721
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2322",
+          "name": "Ski Republic Centre Station V8 Shop",
+          "lat": 44.687748,
+          "lng": 5.892721,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2322?referer=skiquality.com",
+          "address": "La Joue du Loup"
+        }
+      ]
+    },
+    "la-millerette": {
+      "name": "La millerette",
+      "center": [
+        45.6033,
+        6.782
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4943",
+          "name": "Wocan Delivery - La Millerette",
+          "lat": 45.6033,
+          "lng": 6.782,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4943?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-mongie": {
+      "name": "La Mongie",
+      "center": [
+        42.910192,
+        0.175105
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "296",
+          "name": "Alti Sport",
+          "lat": 42.909042,
+          "lng": 0.167545,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/296?referer=skiquality.com",
+          "address": "Résidence Mongie Tourmalet"
+        },
+        {
+          "id": "4045",
+          "name": "Le Rond Point",
+          "lat": 42.909931,
+          "lng": 0.179154,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4045?referer=skiquality.com",
+          "address": "15, avenue du tourmalet"
+        },
+        {
+          "id": "295",
+          "name": "Planète Glisse",
+          "lat": 42.911129,
+          "lng": 0.177168,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/295?referer=skiquality.com",
+          "address": "Résidence Plein Ciel - Avenue du Tourmalet"
+        },
+        {
+          "id": "2323",
+          "name": "Ski Republic Centre Station Gardères Sport",
+          "lat": 42.910667,
+          "lng": 0.176553,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2323?referer=skiquality.com",
+          "address": "Avenue du Tourmalet Face Sud"
+        }
+      ]
+    },
+    "la-norma": {
+      "name": "La Norma",
+      "center": [
+        45.201309,
+        6.69669
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4315",
+          "name": "Ekosport-rent La Cabane a Ski",
+          "lat": 45.201309,
+          "lng": 6.69669,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4315?referer=skiquality.com",
+          "address": "Bâtiment  la Norma Le Village 73500 Villarodin-Bourget"
+        }
+      ]
+    },
+    "la-plagne-1800": {
+      "name": "La Plagne 1800",
+      "center": [
+        45.512619,
+        6.67734
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4306",
+          "name": "Ekosport-rent Les Chalets",
+          "lat": 45.513939,
+          "lng": 6.677187,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4306?referer=skiquality.com",
+          "address": "Chalet Astier Plagne"
+        },
+        {
+          "id": "337",
+          "name": "Plagne 1800 Sports",
+          "lat": 45.511299,
+          "lng": 6.677492,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/337?referer=skiquality.com",
+          "address": "Départ des pistes"
+        }
+      ]
+    },
+    "la-plagne-belle-plagne": {
+      "name": "La Plagne Belle-Plagne",
+      "center": [
+        45.507198,
+        6.707617
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "331",
+          "name": "Armand Berard Sports",
+          "lat": 45.507198,
+          "lng": 6.707617,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/331?referer=skiquality.com",
+          "address": "Galerie Commerciale"
+        }
+      ]
+    },
+    "la-plagne-bellecote": {
+      "name": "La Plagne Bellecote",
+      "center": [
+        45.513207,
+        6.698268
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "332",
+          "name": "Plagne Ski Bellecôte",
+          "lat": 45.513321,
+          "lng": 6.699361,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/332?referer=skiquality.com",
+          "address": "Résidence 3000"
+        },
+        {
+          "id": "2178",
+          "name": "Ski Republic Plagne Bellecote Centre",
+          "lat": 45.51305,
+          "lng": 6.697504,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2178?referer=skiquality.com",
+          "address": "Centre Commercial Bellecote, 73210 La Plagne-Tarentaise"
+        },
+        {
+          "id": "4707",
+          "name": "Wocan Delivery - Plagne Bellecôte",
+          "lat": 45.51325,
+          "lng": 6.69794,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4707?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-plagne-bellentre": {
+      "name": "La Plagne Bellentre",
+      "center": [
+        45.56958,
+        6.71339
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4745",
+          "name": "Wocan Delivery - Bellentre",
+          "lat": 45.56958,
+          "lng": 6.71339,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4745?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-plagne-centre-aime": {
+      "name": "La Plagne Centre",
+      "center": [
+        45.505927,
+        6.675899
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2716",
+          "name": "Oxygene ski shop",
+          "lat": 45.505604,
+          "lng": 6.675867,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2716?referer=skiquality.com",
+          "address": "Oxygène La Plagne – BP46 Immeuble l’Orée des Pistes –"
+        },
+        {
+          "id": "333",
+          "name": "Robino 3R",
+          "lat": 45.505638,
+          "lng": 6.67581,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/333?referer=skiquality.com",
+          "address": "Galerie Mercure"
+        },
+        {
+          "id": "2177",
+          "name": "Ski Republic Les Ecrins",
+          "lat": 45.506538,
+          "lng": 6.67602,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2177?referer=skiquality.com",
+          "address": "Centre Commercial Les Ecrins, 73210 Plagne Centre"
+        }
+      ]
+    },
+    "la-plagne-les-coches": {
+      "name": "La Plagne Les Coches",
+      "center": [
+        45.554901,
+        6.727335
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2308",
+          "name": "Ski Republic Les Coches Centre",
+          "lat": 45.554893,
+          "lng": 6.727326,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2308?referer=skiquality.com",
+          "address": "Immeuble le Trompe l’oeil, 6 route des jeux, Place des Commerces"
+        },
+        {
+          "id": "4204",
+          "name": "Ski Republic Les Coches- Wengen",
+          "lat": 45.554909,
+          "lng": 6.72732,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4204?referer=skiquality.com",
+          "address": "place des Commerces"
+        },
+        {
+          "id": "4351",
+          "name": "Ski Shop Les Coches Sportshop Paradiski",
+          "lat": 45.554901,
+          "lng": 6.727358,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4351?referer=skiquality.com",
+          "address": "Place des commerces"
+        }
+      ]
+    },
+    "la-plagne-montalbert": {
+      "name": "La Plagne Montalbert",
+      "center": [
+        45.534817,
+        6.636473
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1257",
+          "name": "Sport Passion 73",
+          "lat": 45.534573,
+          "lng": 6.635716,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1257?referer=skiquality.com",
+          "address": "Immeuble Genepy Montalbert"
+        },
+        {
+          "id": "4703",
+          "name": "Wocan Delivery - Montalbert",
+          "lat": 45.53506,
+          "lng": 6.63723,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4703?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-plagne-montchavin": {
+      "name": "La Plagne Montchavin",
+      "center": [
+        45.559733,
+        6.736335
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4348",
+          "name": "Ekosport-rent Montchavin Sport",
+          "lat": 45.560299,
+          "lng": 6.735779,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4348?referer=skiquality.com",
+          "address": "2 rue Principale"
+        },
+        {
+          "id": "1479",
+          "name": "Montchavin",
+          "lat": 45.559818,
+          "lng": 6.736295,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1479?referer=skiquality.com",
+          "address": "2 chemin du Paradisio"
+        },
+        {
+          "id": "2307",
+          "name": "Ski Republic Montchavin  Les 3 Glaciers",
+          "lat": 45.558037,
+          "lng": 6.739023,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2307?referer=skiquality.com",
+          "address": "Résidence Les 3 Glaciers, 20 Chemin du Paradisio - Lieu dit : Le Replat 73210 Montchavin-les-Coches"
+        },
+        {
+          "id": "4069",
+          "name": "Ski Republic Montchavin Village",
+          "lat": 45.560211,
+          "lng": 6.7348,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4069?referer=skiquality.com",
+          "address": "Immeuble La Porte de Montchavin"
+        },
+        {
+          "id": "4352",
+          "name": "Ski Shop Montchavin Sportshop Paradiski",
+          "lat": 45.560299,
+          "lng": 6.735779,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4352?referer=skiquality.com",
+          "address": "5 rue de la Glisse"
+        }
+      ]
+    },
+    "la-plagne-roche": {
+      "name": "La Plagne Roche",
+      "center": [
+        45.523918,
+        6.675903
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3192",
+          "name": "Oxygene ski shop",
+          "lat": 45.523918,
+          "lng": 6.675903,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3192?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-plagne-villages": {
+      "name": "La Plagne Villages",
+      "center": [
+        45.505955,
+        6.684053
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "336",
+          "name": "Pierre Leroux Sports",
+          "lat": 45.505955,
+          "lng": 6.684053,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/336?referer=skiquality.com",
+          "address": "Centre Commercial - PLAGNE VILLAGES"
+        }
+      ]
+    },
+    "la-ravoire": {
+      "name": "La ravoire",
+      "center": [
+        45.59631,
+        6.76515
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4947",
+          "name": "Wocan Delivery - La Ravoire",
+          "lat": 45.59631,
+          "lng": 6.76515,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4947?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-roche": {
+      "name": "La Roche",
+      "center": [
+        45.52454,
+        6.67544
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4957",
+          "name": "Wocan Delivery - La Roche",
+          "lat": 45.52454,
+          "lng": 6.67544,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4957?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-roche-den-haut": {
+      "name": "La roche d'en haut",
+      "center": [
+        45.52153,
+        6.68039
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4959",
+          "name": "Wocan Delivery - La Roche d'En Haut",
+          "lat": 45.52153,
+          "lng": 6.68039,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4959?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-rosiere": {
+      "name": "La Rosière",
+      "center": [
+        45.626157,
+        6.857793
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4023",
+          "name": "Alpen Ski Shop",
+          "lat": 45.625465,
+          "lng": 6.862761,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4023?referer=skiquality.com",
+          "address": "Les Eucherts - Résidence Alpen Lodge"
+        },
+        {
+          "id": "338",
+          "name": "Arpin Sport",
+          "lat": 45.627254,
+          "lng": 6.849843,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/338?referer=skiquality.com",
+          "address": "Centre station La Rosière"
+        },
+        {
+          "id": "4307",
+          "name": "Ekosport-rent Sport Service",
+          "lat": 45.625542,
+          "lng": 6.863979,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4307?referer=skiquality.com",
+          "address": "Les Eucherts"
+        },
+        {
+          "id": "339",
+          "name": "L'Appart",
+          "lat": 45.626759,
+          "lng": 6.850628,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/339?referer=skiquality.com",
+          "address": "Centre station La Rosière"
+        },
+        {
+          "id": "4115",
+          "name": "Les Cimes Blanches",
+          "lat": 45.625961,
+          "lng": 6.860297,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4115?referer=skiquality.com",
+          "address": "Résidence Les Cimes Blanches"
+        },
+        {
+          "id": "2183",
+          "name": "Precision ski La Rosière - Centre",
+          "lat": 45.626858,
+          "lng": 6.849916,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2183?referer=skiquality.com",
+          "address": "Résidences Les Vertes Années 73700 La Rosière Montvalezan"
+        },
+        {
+          "id": "4206",
+          "name": "Precision Ski Les Eucherts - Alparena Ski Shop",
+          "lat": 45.625832,
+          "lng": 6.862402,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4206?referer=skiquality.com",
+          "address": "Quartier de l'Averne, Les Eucherts"
+        },
+        {
+          "id": "2231",
+          "name": "Precision Ski Les Eucherts - Surf Ski Shop",
+          "lat": 45.625587,
+          "lng": 6.862517,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2231?referer=skiquality.com",
+          "address": "Résidence les Balcons de la Rosière, Centre des Eucherts"
+        }
+      ]
+    },
+    "la-salle-les-alpes": {
+      "name": "La Salle-les-Alpes",
+      "center": [
+        44.945043,
+        6.563512
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4775",
+          "name": "Ekosport-rent Riquet Sport Village",
+          "lat": 44.945043,
+          "lng": 6.563512,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4775?referer=skiquality.com",
+          "address": "10 rue de Mail 05240 La Salle les Alpes"
+        }
+      ]
+    },
+    "la-tania": {
+      "name": "La Tania",
+      "center": [
+        45.431518,
+        6.59571
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4344",
+          "name": "Ekosport-rent Ski Higher La Tania",
+          "lat": 45.431374,
+          "lng": 6.595878,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4344?referer=skiquality.com",
+          "address": "Immeuble le Grand Bois"
+        },
+        {
+          "id": "1415",
+          "name": "Les Folyères La Tania",
+          "lat": 45.431805,
+          "lng": 6.595375,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1415?referer=skiquality.com",
+          "address": "Centre station/Rés. Les Folyères"
+        },
+        {
+          "id": "4291",
+          "name": "Ski Higher La Tania",
+          "lat": 45.431374,
+          "lng": 6.595878,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4291?referer=skiquality.com",
+          "address": "Immeuble le Grand Bois"
+        }
+      ]
+    },
+    "la-toussuire": {
+      "name": "La Toussuire",
+      "center": [
+        45.25684,
+        6.258363
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4327",
+          "name": "Ekosport-rent Le Floral",
+          "lat": 45.25684,
+          "lng": 6.258363,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4327?referer=skiquality.com",
+          "address": "Chalet Le Floral"
+        }
+      ]
+    },
+    "la-vignerie": {
+      "name": "La vignerie",
+      "center": [
+        45.57131,
+        6.7471
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4891",
+          "name": "Wocan Delivery - La Vignerie",
+          "lat": 45.57131,
+          "lng": 6.7471,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4891?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "la-vignette": {
+      "name": "La vignette",
+      "center": [
+        45.56826,
+        6.74479
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4889",
+          "name": "Wocan Delivery - La Vignette",
+          "lat": 45.56826,
+          "lng": 6.74479,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4889?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "landry": {
+      "name": "Landry",
+      "center": [
+        45.573375,
+        6.738205
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4737",
+          "name": "Wocan Delivery - Landry",
+          "lat": 45.57175,
+          "lng": 6.74023,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4737?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        },
+        {
+          "id": "4696",
+          "name": "Wocan Location - Ski Rental",
+          "lat": 45.575,
+          "lng": 6.73618,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4696?referer=skiquality.com",
+          "address": "496 Avenue de la gare"
+        }
+      ]
+    },
+    "lanslebourg-mont-cenis": {
+      "name": "Lanslebourg Mont Cenis",
+      "center": [
+        45.285362,
+        6.881779
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1719",
+          "name": "Val Sports",
+          "lat": 45.285362,
+          "lng": 6.881779,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1719?referer=skiquality.com",
+          "address": "110 Rue du Mont Cenis"
+        }
+      ]
+    },
+    "lanslevillard": {
+      "name": "Lanslevillard",
+      "center": [
+        45.290142,
+        6.91141
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "347",
+          "name": "Balcons Sports",
+          "lat": 45.290356,
+          "lng": 6.916245,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/347?referer=skiquality.com",
+          "address": "Les Balcons Val Cenis Village - Bat 7 Planchamp"
+        },
+        {
+          "id": "4316",
+          "name": "Ekosport-rent Le Pied Des Pistes",
+          "lat": 45.289551,
+          "lng": 6.906861,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4316?referer=skiquality.com",
+          "address": "335 Rue des Rochers"
+        },
+        {
+          "id": "345",
+          "name": "La Poudreuse",
+          "lat": 45.289448,
+          "lng": 6.908004,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/345?referer=skiquality.com",
+          "address": "97 Rue des Rochers"
+        },
+        {
+          "id": "4157",
+          "name": "Ski Republic Centre Lanslevillard Sports Vanoise",
+          "lat": 45.291214,
+          "lng": 6.914529,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4157?referer=skiquality.com",
+          "address": "Centre Commercial - 133 Rue de Saint-Landry"
+        }
+      ]
+    },
+    "largentiere-la-bessee": {
+      "name": "L'Argentiere la Bessee",
+      "center": [
+        44.794479,
+        6.55903
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4394",
+          "name": "Precision Ski Centre Village DW sports",
+          "lat": 44.794479,
+          "lng": 6.55903,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4394?referer=skiquality.com",
+          "address": "10, esplanade Pierre Auguste Giraud"
+        }
+      ]
+    },
+    "le-chatelard": {
+      "name": "Le Châtelard",
+      "center": [
+        45.61562,
+        6.86367
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5005",
+          "name": "Wocan Delivery - Le Châtelard",
+          "lat": 45.61562,
+          "lng": 6.86367,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5005?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-chene": {
+      "name": "Le chêne",
+      "center": [
+        45.61083,
+        6.77832
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4893",
+          "name": "Wocan Delivery - Le Chêne",
+          "lat": 45.61083,
+          "lng": 6.77832,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4893?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-corbier": {
+      "name": "Le Corbier",
+      "center": [
+        45.23932,
+        6.270356
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2388",
+          "name": "Apollo",
+          "lat": 45.240597,
+          "lng": 6.268206,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2388?referer=skiquality.com",
+          "address": "Immeuble Apollo - Centre station - Front de neige"
+        },
+        {
+          "id": "348",
+          "name": "Ariane",
+          "lat": 45.240166,
+          "lng": 6.268644,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/348?referer=skiquality.com",
+          "address": "Immeuble Ariane"
+        },
+        {
+          "id": "2098",
+          "name": "La Poudreuse Corbier",
+          "lat": 45.239021,
+          "lng": 6.271792,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2098?referer=skiquality.com",
+          "address": "Immeuble le Pégase Phénix"
+        },
+        {
+          "id": "2233",
+          "name": "Ski Republic Front De Neige BC Sports",
+          "lat": 45.239986,
+          "lng": 6.269229,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2233?referer=skiquality.com",
+          "address": "Immeuble Charvin, Galerie de la Piscine"
+        },
+        {
+          "id": "2190",
+          "name": "Ski Republic Les Alpages",
+          "lat": 45.236832,
+          "lng": 6.27391,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2190?referer=skiquality.com",
+          "address": "Résidence Odalys les Alpages du Corbier-Lieu-dit Au Saut Villarembert"
+        }
+      ]
+    },
+    "le-culet": {
+      "name": "Le culet",
+      "center": [
+        45.567671,
+        6.74837
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4895",
+          "name": "Wocan Delivery - Le Culet",
+          "lat": 45.567671,
+          "lng": 6.74837,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4895?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-grand-bochet": {
+      "name": "Le grand bochet",
+      "center": [
+        45.56267,
+        6.71832
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4885",
+          "name": "Wocan Delivery - Le Grand Bochet",
+          "lat": 45.56267,
+          "lng": 6.71832,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4885?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-grand-bornand": {
+      "name": "Le Grand Bornand",
+      "center": [
+        45.953227,
+        6.442172
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1873",
+          "name": "Antonin Sports",
+          "lat": 45.94297,
+          "lng": 6.429235,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1873?referer=skiquality.com",
+          "address": "89 Route de la Vallée du Bouchet (Route du télécabine)"
+        },
+        {
+          "id": "2324",
+          "name": "Ski Republic Parking des Télécabines Sport Alp",
+          "lat": 45.941776,
+          "lng": 6.439629,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2324?referer=skiquality.com",
+          "address": "17 Chemin de Suize, Route du Bouchet"
+        },
+        {
+          "id": "1233",
+          "name": "Ski Shop",
+          "lat": 45.974934,
+          "lng": 6.457652,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1233?referer=skiquality.com",
+          "address": "7241, Route du Chinaillon"
+        }
+      ]
+    },
+    "le-martorey": {
+      "name": "Le martorey",
+      "center": [
+        45.57021,
+        6.7537
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4897",
+          "name": "Wocan Delivery - Le Martorey",
+          "lat": 45.57021,
+          "lng": 6.7537,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4897?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-mont-dore": {
+      "name": "Le Mont-Dore",
+      "center": [
+        45.574768,
+        2.809417
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4208",
+          "name": "Karel Sport",
+          "lat": 45.574768,
+          "lng": 2.809417,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4208?referer=skiquality.com",
+          "address": "17 rue du capitaine Chazotte"
+        }
+      ]
+    },
+    "le-moulin": {
+      "name": "Le moulin",
+      "center": [
+        45.5398,
+        6.75838
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4911",
+          "name": "Wocan Delivery - Le Moulin",
+          "lat": 45.5398,
+          "lng": 6.75838,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4911?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-mousselard": {
+      "name": "Le mousselard",
+      "center": [
+        45.61078,
+        6.8667
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5007",
+          "name": "Wocan Delivery - Le Mousselard",
+          "lat": 45.61078,
+          "lng": 6.8667,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5007?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-parchet": {
+      "name": "Le parchet",
+      "center": [
+        45.57765,
+        6.75253
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4903",
+          "name": "Wocan Delivery - Le Parchet",
+          "lat": 45.57765,
+          "lng": 6.75253,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4903?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-petit-gondon": {
+      "name": "Le petit gondon",
+      "center": [
+        45.58522,
+        6.75218
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4909",
+          "name": "Wocan Delivery - Le Petit Gondon",
+          "lat": 45.58522,
+          "lng": 6.75218,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4909?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-pla-dadet-saint-lary": {
+      "name": "Le Pla d'Adet - Saint Lary",
+      "center": [
+        42.812545,
+        0.294642
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "301",
+          "name": "France Ski",
+          "lat": 42.812286,
+          "lng": 0.296218,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/301?referer=skiquality.com",
+          "address": "Résidence Auria - Quartier du Pla d'Adet - Pied de piste"
+        },
+        {
+          "id": "4382",
+          "name": "Top Ski Glisse",
+          "lat": 42.812803,
+          "lng": 0.293065,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4382?referer=skiquality.com",
+          "address": "8 rue du port bielh"
+        }
+      ]
+    },
+    "le-plan": {
+      "name": "Le Plan (Bourg Saint Maurice)",
+      "center": [
+        45.59528,
+        6.75984
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4945",
+          "name": "Wocan Delivery - Le Plan",
+          "lat": 45.59528,
+          "lng": 6.75984,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4945?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-praz-de-lys": {
+      "name": "Le Praz de Lys",
+      "center": [
+        46.148924,
+        6.592406
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "211",
+          "name": "Le Spot du Praz",
+          "lat": 46.148888,
+          "lng": 6.592742,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/211?referer=skiquality.com",
+          "address": "1117 Route de chevaly"
+        },
+        {
+          "id": "5034",
+          "name": "Ski Republic Ski Shop Praz De Lys",
+          "lat": 46.14896,
+          "lng": 6.59207,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5034?referer=skiquality.com",
+          "address": "1159 route de chevaly"
+        }
+      ]
+    },
+    "le-prelet": {
+      "name": "Le prélet",
+      "center": [
+        45.59734,
+        6.76094
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4907",
+          "name": "Wocan Delivery - Le Prélet",
+          "lat": 45.59734,
+          "lng": 6.76094,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4907?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-solliet": {
+      "name": "Le solliet",
+      "center": [
+        45.61714,
+        6.83777
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4999",
+          "name": "Wocan Delivery - Le Solliet",
+          "lat": 45.61714,
+          "lng": 6.83777,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4999?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-villard-la-plagne": {
+      "name": "Le Villard (La Plagne)",
+      "center": [
+        45.57758,
+        6.74683
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4899",
+          "name": "Wocan Delivery - Le Villard (La Plagne)",
+          "lat": 45.57758,
+          "lng": 6.74683,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4899?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-villard-landry": {
+      "name": "Le Villard (Landry)",
+      "center": [
+        45.57611,
+        6.71333
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4901",
+          "name": "Wocan Delivery - Le Villard (Landry)",
+          "lat": 45.57611,
+          "lng": 6.71333,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4901?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "le-villaret": {
+      "name": "Le Villaret",
+      "center": [
+        45.61875,
+        6.75617
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4949",
+          "name": "Wocan Delivery - Le Villaret",
+          "lat": 45.61875,
+          "lng": 6.75617,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4949?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "lelex": {
+      "name": "Lelex",
+      "center": [
+        46.305447,
+        5.943974
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "171",
+          "name": "Lelex",
+          "lat": 46.305447,
+          "lng": 5.943974,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/171?referer=skiquality.com",
+          "address": "340 les Monts jura   -   Le Brocard"
+        }
+      ]
+    },
+    "les-angles": {
+      "name": "Les Angles",
+      "center": [
+        42.577405,
+        2.071609
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4765",
+          "name": "Ekosport-rent Teddy Shop",
+          "lat": 42.576445,
+          "lng": 2.070147,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4765?referer=skiquality.com",
+          "address": "16 avenue de Mont Louis"
+        },
+        {
+          "id": "311",
+          "name": "La Godille",
+          "lat": 42.578453,
+          "lng": 2.072908,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/311?referer=skiquality.com",
+          "address": "Résidence la Matte - Avenue de Balcère"
+        },
+        {
+          "id": "2017",
+          "name": "Le Switch",
+          "lat": 42.576046,
+          "lng": 2.07026,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2017?referer=skiquality.com",
+          "address": "Avenue de Mont Louis"
+        },
+        {
+          "id": "4666",
+          "name": "Ski Republic Centre Station Ecobike Sport Shop",
+          "lat": 42.578675,
+          "lng": 2.073121,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4666?referer=skiquality.com",
+          "address": "Avenue de Balcère 66210 Les Angles"
+        }
+      ]
+    },
+    "les-carroz-daraches": {
+      "name": "Les Carroz d'Aràches",
+      "center": [
+        46.026218,
+        6.638095
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3730",
+          "name": "Adventure Ski",
+          "lat": 46.026611,
+          "lng": 6.638602,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3730?referer=skiquality.com",
+          "address": "47, route du Val Renand\t- Bat. Pierre & Vacances"
+        },
+        {
+          "id": "4767",
+          "name": "Ekosport-Rent Techniglisse",
+          "lat": 46.026333,
+          "lng": 6.638824,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4767?referer=skiquality.com",
+          "address": "3230 route de la Barliette"
+        },
+        {
+          "id": "4190",
+          "name": "Skilimandjaro",
+          "lat": 46.025711,
+          "lng": 6.63686,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4190?referer=skiquality.com",
+          "address": "3, route  du Serveray"
+        }
+      ]
+    },
+    "les-charmettes": {
+      "name": "Les charmettes",
+      "center": [
+        45.53483,
+        6.66943
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4953",
+          "name": "Wocan Delivery - Les Charmettes",
+          "lat": 45.53483,
+          "lng": 6.66943,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4953?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "les-chavonnes": {
+      "name": "Les chavonnes",
+      "center": [
+        45.67649,
+        6.76929
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5019",
+          "name": "Wocan Delivery - Les Chavonnes",
+          "lat": 45.67649,
+          "lng": 6.76929,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5019?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "les-contamines-montjoie": {
+      "name": "Les Contamines Montjoie",
+      "center": [
+        45.818204,
+        6.726316
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1459",
+          "name": "Centre",
+          "lat": 45.821629,
+          "lng": 6.72717,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1459?referer=skiquality.com",
+          "address": "125, Rte de Notre Dame de la Gorge"
+        },
+        {
+          "id": "4632",
+          "name": "Mountain Shop By Cuby",
+          "lat": 45.822058,
+          "lng": 6.72712,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4632?referer=skiquality.com",
+          "address": "71 Route de Notre Dame de la Gorge"
+        },
+        {
+          "id": "4140",
+          "name": "Ski Tout Schuss",
+          "lat": 45.810925,
+          "lng": 6.724658,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4140?referer=skiquality.com",
+          "address": "226 Chemin des Hameaux du Lay"
+        }
+      ]
+    },
+    "les-deux-alpes": {
+      "name": "Les Deux Alpes",
+      "center": [
+        45.012722,
+        6.124961
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4806",
+          "name": "Chalvin Sports",
+          "lat": 45.014945,
+          "lng": 6.124553,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4806?referer=skiquality.com",
+          "address": "34 avenue de la Muzelle"
+        },
+        {
+          "id": "4313",
+          "name": "Ekosport-rent Camp d'Base",
+          "lat": 45.005219,
+          "lng": 6.12428,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4313?referer=skiquality.com",
+          "address": "7 Rue des Vikings"
+        },
+        {
+          "id": "4343",
+          "name": "Ekosport-rent Gravier Sports",
+          "lat": 45.019802,
+          "lng": 6.123421,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4343?referer=skiquality.com",
+          "address": "7, Avenue de la Muzelle"
+        },
+        {
+          "id": "4314",
+          "name": "Ekosport-rent L'Atelier",
+          "lat": 45.018429,
+          "lng": 6.130221,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4314?referer=skiquality.com",
+          "address": "Grande place - BP 31"
+        },
+        {
+          "id": "4317",
+          "name": "Ekosport-rent La Skirie 2",
+          "lat": 45.01247,
+          "lng": 6.12499,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4317?referer=skiquality.com",
+          "address": "70 avenue de la Muzelle"
+        },
+        {
+          "id": "4022",
+          "name": "Ekosport-Rent Les 2 Skis",
+          "lat": 45.015202,
+          "lng": 6.124939,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4022?referer=skiquality.com",
+          "address": "34 Avenue de la Muzelle - Résidence Neige Soleil - Entrée station"
+        },
+        {
+          "id": "1870",
+          "name": "Fl Sport les Deux Alpes",
+          "lat": 45.017689,
+          "lng": 6.130067,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1870?referer=skiquality.com",
+          "address": "Hameau de la  Meije -  Le  Village1800"
+        },
+        {
+          "id": "4292",
+          "name": "Gravier Sports",
+          "lat": 45.019802,
+          "lng": 6.123421,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4292?referer=skiquality.com",
+          "address": "7, Avenue de la Muzelle"
+        },
+        {
+          "id": "279",
+          "name": "Jacques Sports",
+          "lat": 45.005718,
+          "lng": 6.124693,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/279?referer=skiquality.com",
+          "address": "11 Rue des Vikings - Immeuble 3300"
+        },
+        {
+          "id": "281",
+          "name": "La Skirie",
+          "lat": 45.012497,
+          "lng": 6.125024,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/281?referer=skiquality.com",
+          "address": "70 Avenue de la Muzelle - L'Eperon"
+        },
+        {
+          "id": "4350",
+          "name": "Milou Sports",
+          "lat": 45.004818,
+          "lng": 6.12235,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4350?referer=skiquality.com",
+          "address": "126, avenue de la Muzelle"
+        },
+        {
+          "id": "2306",
+          "name": "Ski Republic Hors Limites",
+          "lat": 45.006073,
+          "lng": 6.121573,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2306?referer=skiquality.com",
+          "address": "1 rue du Cairou"
+        }
+      ]
+    },
+    "les-esserts": {
+      "name": "Morillon 1100 - Les Esserts",
+      "center": [
+        46.06633,
+        6.670543
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1875",
+          "name": "Auben Ski",
+          "lat": 46.06633,
+          "lng": 6.670543,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1875?referer=skiquality.com",
+          "address": "Praz des Esserts - 17 impasse du Forum"
+        }
+      ]
+    },
+    "les-gets": {
+      "name": "Les Gets",
+      "center": [
+        46.158485,
+        6.669113
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "217",
+          "name": "Contat Sports",
+          "lat": 46.158157,
+          "lng": 6.668542,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/217?referer=skiquality.com",
+          "address": "421 Rue du centre - Résidence Le Mont Chéry"
+        },
+        {
+          "id": "4663",
+          "name": "Ekosport-rent Desire Sports",
+          "lat": 46.157544,
+          "lng": 6.66739,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4663?referer=skiquality.com",
+          "address": "516 route du Centre"
+        },
+        {
+          "id": "3137",
+          "name": "Jordan's Sports",
+          "lat": 46.15831,
+          "lng": 6.66926,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3137?referer=skiquality.com",
+          "address": "128 Route du Front de Neige Im le Cry de Lys"
+        },
+        {
+          "id": "3780",
+          "name": "Le Grenier à Skis",
+          "lat": 46.158649,
+          "lng": 6.670788,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3780?referer=skiquality.com",
+          "address": "90 Chemin de Carry"
+        },
+        {
+          "id": "4664",
+          "name": "Ski Republic Centre Station Yolo Store",
+          "lat": 46.158071,
+          "lng": 6.66811,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4664?referer=skiquality.com",
+          "address": "448 rue du centre"
+        },
+        {
+          "id": "2327",
+          "name": "Ski Republic Rue du Centre Evasion Sport",
+          "lat": 46.160179,
+          "lng": 6.670588,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2327?referer=skiquality.com",
+          "address": "16 Rue de Pressenage"
+        }
+      ]
+    },
+    "les-granges": {
+      "name": "Les granges",
+      "center": [
+        45.56763,
+        6.72221
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4887",
+          "name": "Wocan Delivery - Les Granges",
+          "lat": 45.56763,
+          "lng": 6.72221,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4887?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "les-houches": {
+      "name": "Les Houches",
+      "center": [
+        45.891386,
+        6.795936
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "219",
+          "name": "Cuby Sport",
+          "lat": 45.893013,
+          "lng": 6.800217,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/219?referer=skiquality.com",
+          "address": "130 Avenue des Alpages"
+        },
+        {
+          "id": "4766",
+          "name": "Ekosport-rent Bellevue Sport",
+          "lat": 45.889844,
+          "lng": 6.78878,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4766?referer=skiquality.com",
+          "address": "12 rue de Bellevue"
+        },
+        {
+          "id": "2245",
+          "name": "Munari Sports Mont Blanc Sports",
+          "lat": 45.8913,
+          "lng": 6.79881,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2245?referer=skiquality.com",
+          "address": "156, rue de l'Eglise"
+        }
+      ]
+    },
+    "les-laix": {
+      "name": "Les laix",
+      "center": [
+        45.6167,
+        6.84563
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5001",
+          "name": "Wocan Delivery - Les Laix",
+          "lat": 45.6167,
+          "lng": 6.84563,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5001?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "les-lanches": {
+      "name": "Les Lanches",
+      "center": [
+        45.5248,
+        6.79157
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4934",
+          "name": "Wocan Delivery - Les Lanches",
+          "lat": 45.5248,
+          "lng": 6.79157,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4934?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "les-menuires": {
+      "name": "Les Menuires",
+      "center": [
+        45.323375,
+        6.539044
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2249",
+          "name": "Absolu Sports",
+          "lat": 45.315052,
+          "lng": 6.543946,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2249?referer=skiquality.com",
+          "address": "1850 Route de Reberty, Le Genepi"
+        },
+        {
+          "id": "3843",
+          "name": "Balcons du Bettex",
+          "lat": 45.342101,
+          "lng": 6.526586,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3843?referer=skiquality.com",
+          "address": "23 Place du Bassin - Le Bettex"
+        },
+        {
+          "id": "4686",
+          "name": "Ekosport-rent Pirate Board Shop",
+          "lat": 45.324279,
+          "lng": 6.537929,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4686?referer=skiquality.com",
+          "address": "Galerie de l'Oisans La Croisette"
+        },
+        {
+          "id": "355",
+          "name": "Menuir'sports",
+          "lat": 45.325447,
+          "lng": 6.538395,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/355?referer=skiquality.com",
+          "address": "\"La Croisette\" Galerie Commerciale de l’Adret - Front de  Neige"
+        },
+        {
+          "id": "2248",
+          "name": "Roc Sports",
+          "lat": 45.319443,
+          "lng": 6.537772,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2248?referer=skiquality.com",
+          "address": "Immeuble l'Argousier - Les Fontanettes"
+        },
+        {
+          "id": "2383",
+          "name": "Rosael Sports",
+          "lat": 45.318382,
+          "lng": 6.547473,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2383?referer=skiquality.com",
+          "address": "486, rue des Cimes, Les chalets du Soleil/Hotel Kaya, Reberty 2000"
+        },
+        {
+          "id": "2247",
+          "name": "Ski Republic Brelin Le Capricorne",
+          "lat": 45.32679,
+          "lng": 6.540599,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2247?referer=skiquality.com",
+          "address": "Le Capricorne - Résidence Brelin -"
+        },
+        {
+          "id": "2330",
+          "name": "Ski Republic La Croisette - Extremoutain",
+          "lat": 45.323948,
+          "lng": 6.53782,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2330?referer=skiquality.com",
+          "address": "Immeuble Vanoise - La Croisette"
+        },
+        {
+          "id": "358",
+          "name": "Snow Sport",
+          "lat": 45.31493,
+          "lng": 6.540873,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/358?referer=skiquality.com",
+          "address": "Centre Commercial Les Bruyères"
+        }
+      ]
+    },
+    "les-michailles": {
+      "name": "Les michailles",
+      "center": [
+        45.55785,
+        6.76466
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4936",
+          "name": "Wocan Delivery - Les Michailles",
+          "lat": 45.55785,
+          "lng": 6.76466,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4936?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "les-orres": {
+      "name": "Les Orres",
+      "center": [
+        44.492843,
+        6.556126
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1472",
+          "name": "Centre commercial Les Orres 1650",
+          "lat": 44.492981,
+          "lng": 6.556654,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1472?referer=skiquality.com",
+          "address": "Centre station 1650"
+        },
+        {
+          "id": "240",
+          "name": "Christian Sports",
+          "lat": 44.492855,
+          "lng": 6.55677,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/240?referer=skiquality.com",
+          "address": "Orrianes des sources - Centre station 1650"
+        },
+        {
+          "id": "4377",
+          "name": "Christian Sports Bois Mean",
+          "lat": 44.485332,
+          "lng": 6.553619,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4377?referer=skiquality.com",
+          "address": "Bois Mean Les Mélèzes d’or – lieudit Pré Claux"
+        },
+        {
+          "id": "4312",
+          "name": "Ekosport-rent Bergerie Sport",
+          "lat": 44.494041,
+          "lng": 6.556532,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4312?referer=skiquality.com",
+          "address": "Centre Station Résidence Soldanelles - station 1650"
+        },
+        {
+          "id": "3260",
+          "name": "Les Orres 1550 - Champ Lacas",
+          "lat": 44.499004,
+          "lng": 6.557053,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3260?referer=skiquality.com",
+          "address": "Champs Lacas- les orres 1550"
+        }
+      ]
+    },
+    "les-plaines": {
+      "name": "Les plaines",
+      "center": [
+        45.50571,
+        6.56964
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4991",
+          "name": "Wocan Delivery - Les Plaines",
+          "lat": 45.50571,
+          "lng": 6.56964,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4991?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "les-rousses": {
+      "name": "Les Rousses",
+      "center": [
+        46.484074,
+        6.060227
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "290",
+          "name": "Berthet Sports",
+          "lat": 46.484074,
+          "lng": 6.060227,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/290?referer=skiquality.com",
+          "address": "384  Rue Pasteur"
+        }
+      ]
+    },
+    "les-saisies": {
+      "name": "Les Saisies",
+      "center": [
+        45.757688,
+        6.539793
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "359",
+          "name": "Les Volatiles",
+          "lat": 45.757694,
+          "lng": 6.537415,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/359?referer=skiquality.com",
+          "address": "196 Avenue des J.O."
+        },
+        {
+          "id": "2251",
+          "name": "Precision Ski Centre Station Isabella Sports",
+          "lat": 45.75753,
+          "lng": 6.539253,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2251?referer=skiquality.com",
+          "address": "avenue des Jeux Olympiques 73620 Les Saisies"
+        },
+        {
+          "id": "3833",
+          "name": "Ski Republic Centre Station Alti Sports",
+          "lat": 45.757549,
+          "lng": 6.538957,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3833?referer=skiquality.com",
+          "address": "Avenue des Jeux Olympiques 73620 Hauteluce"
+        },
+        {
+          "id": "3840",
+          "name": "Twoskiglisse",
+          "lat": 45.75798,
+          "lng": 6.543546,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3840?referer=skiquality.com",
+          "address": "Les Hauts lieux"
+        }
+      ]
+    },
+    "les-villards-de-macot": {
+      "name": "Les villards de mâcot",
+      "center": [
+        45.54282,
+        6.67349
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4951",
+          "name": "Wocan Delivery - Les Villards de Mâcot",
+          "lat": 45.54282,
+          "lng": 6.67349,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4951?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "longefoy": {
+      "name": "Longefoy",
+      "center": [
+        45.53712,
+        6.62734
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4965",
+          "name": "Wocan Delivery - Longefoy",
+          "lat": 45.53712,
+          "lng": 6.62734,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4965?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "lorgere-du-plan": {
+      "name": "L'orgère du plan",
+      "center": [
+        45.55083,
+        6.72655
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4881",
+          "name": "Wocan Delivery - L'Orgère",
+          "lat": 45.55083,
+          "lng": 6.72655,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4881?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "luchon": {
+      "name": "Luchon",
+      "center": [
+        42.789417,
+        0.591607
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2377",
+          "name": "Maeva Sports",
+          "lat": 42.789417,
+          "lng": 0.591607,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2377?referer=skiquality.com",
+          "address": "16 allées d'Etigny"
+        }
+      ]
+    },
+    "luz-saint-sauveur": {
+      "name": "Luz Saint Sauveur",
+      "center": [
+        42.876572,
+        -0.006509
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3577",
+          "name": "Altitude Ski Service",
+          "lat": 42.876572,
+          "lng": -0.006509,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3577?referer=skiquality.com",
+          "address": "Résidence Monblanc - Esquièze-Sère"
+        }
+      ]
+    },
+    "macot-la-plagne": {
+      "name": "Mâcot-la-Plagne",
+      "center": [
+        45.55391,
+        6.67317
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4739",
+          "name": "Wocan Delivery - Macot",
+          "lat": 45.55391,
+          "lng": 6.67317,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4739?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "megeve": {
+      "name": "Megève",
+      "center": [
+        45.860075,
+        6.617139
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "220",
+          "name": "Anouk Socquet Sports",
+          "lat": 45.854649,
+          "lng": 6.616037,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/220?referer=skiquality.com",
+          "address": "Carrefour de Rochebrune"
+        },
+        {
+          "id": "2575",
+          "name": "Ski Flash",
+          "lat": 45.865501,
+          "lng": 6.618241,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2575?referer=skiquality.com",
+          "address": "905 Route du Jaillet"
+        }
+      ]
+    },
+    "meribel": {
+      "name": "Méribel",
+      "center": [
+        45.397187,
+        6.567499
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "360",
+          "name": "Alp'sports",
+          "lat": 45.399258,
+          "lng": 6.573983,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/360?referer=skiquality.com",
+          "address": "Galerie Commerciale Plateau de Morel"
+        },
+        {
+          "id": "4187",
+          "name": "AUDACIUS SHOP",
+          "lat": 45.397877,
+          "lng": 6.564395,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4187?referer=skiquality.com",
+          "address": "61, rue des Jeux Olympiques – Immeuble le tremplin"
+        },
+        {
+          "id": "2170",
+          "name": "Precision Ski Méribel Centre La Chaudanne",
+          "lat": 45.394081,
+          "lng": 6.56691,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2170?referer=skiquality.com",
+          "address": "Immeuble Le Tremplin, Montée de la Chaudanne"
+        },
+        {
+          "id": "2171",
+          "name": "Precision Ski Meribel Centre Marine",
+          "lat": 45.397251,
+          "lng": 6.56623,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2171?referer=skiquality.com",
+          "address": "Résidence La Tougnette, Rue du Centre"
+        },
+        {
+          "id": "3553",
+          "name": "White Storm Méribel",
+          "lat": 45.397469,
+          "lng": 6.565976,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3553?referer=skiquality.com",
+          "address": "530 rue des Jeux Olympiques - La Tougnete"
+        }
+      ]
+    },
+    "meribel-les-allues": {
+      "name": "Méribel les Allues",
+      "center": [
+        45.414803,
+        6.565041
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4328",
+          "name": "Ekosport-rent Ski Higher",
+          "lat": 45.430206,
+          "lng": 6.556143,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4328?referer=skiquality.com",
+          "address": "Route de la Resse, La Vieille Scierie"
+        },
+        {
+          "id": "1548",
+          "name": "Méribel Le Plateau",
+          "lat": 45.399399,
+          "lng": 6.573938,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1548?referer=skiquality.com",
+          "address": "Route du plateau-rond point des pistes"
+        }
+      ]
+    },
+    "meribel-mottaret": {
+      "name": "Méribel Mottaret",
+      "center": [
+        45.373652,
+        6.576526
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "365",
+          "name": "Mottaret Ski Évasion",
+          "lat": 45.373596,
+          "lng": 6.577899,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/365?referer=skiquality.com",
+          "address": "Chemin des gentianes   Résidence L'Hotel du Mottaret"
+        },
+        {
+          "id": "2172",
+          "name": "Precision Ski Méribel Mottaret Centre",
+          "lat": 45.37323,
+          "lng": 6.5796,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2172?referer=skiquality.com",
+          "address": "Centre Commercial Club Hôtel, Front de neige"
+        },
+        {
+          "id": "2187",
+          "name": "Ski Republic Le Hameau",
+          "lat": 45.37413,
+          "lng": 6.57208,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2187?referer=skiquality.com",
+          "address": "Résidence Odalys-Le Hameau du Mottaret"
+        }
+      ]
+    },
+    "metabief": {
+      "name": "Metabief",
+      "center": [
+        46.768351,
+        6.354639
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1917",
+          "name": "Gaby Sport",
+          "lat": 46.768532,
+          "lng": 6.352127,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1917?referer=skiquality.com",
+          "address": "35 Avenue du Bois du Roi"
+        },
+        {
+          "id": "5033",
+          "name": "Roger Maire Sports",
+          "lat": 46.76817,
+          "lng": 6.35715,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5033?referer=skiquality.com",
+          "address": "8 place Xavier Authier"
+        }
+      ]
+    },
+    "montagny": {
+      "name": "Montagny",
+      "center": [
+        45.45593,
+        6.59133
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5017",
+          "name": "Wocan Delivery - Montagny",
+          "lat": 45.45593,
+          "lng": 6.59133,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5017?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "montgenevre": {
+      "name": "Montgenèvre",
+      "center": [
+        44.931879,
+        6.724783
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3312",
+          "name": "L'obélisque",
+          "lat": 44.934067,
+          "lng": 6.729292,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3312?referer=skiquality.com",
+          "address": "Hameau de l'Obélisque"
+        },
+        {
+          "id": "2488",
+          "name": "Sno7",
+          "lat": 44.930874,
+          "lng": 6.723006,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2488?referer=skiquality.com",
+          "address": "Résidence Napoléon - 537 Rue d'Italie"
+        },
+        {
+          "id": "1931",
+          "name": "Snowbox",
+          "lat": 44.930695,
+          "lng": 6.722051,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1931?referer=skiquality.com",
+          "address": "Immeuble du golf"
+        }
+      ]
+    },
+    "montmagny": {
+      "name": "Montmagny",
+      "center": [
+        45.51259,
+        6.58389
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4995",
+          "name": "Wocan Delivery - Montmagny",
+          "lat": 45.51259,
+          "lng": 6.58389,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4995?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "montorlin": {
+      "name": "Montorlin",
+      "center": [
+        45.56151,
+        6.72869
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4883",
+          "name": "Wocan Delivery - Montorlin",
+          "lat": 45.56151,
+          "lng": 6.72869,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4883?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "montriond": {
+      "name": "Montriond",
+      "center": [
+        46.205532,
+        6.727804
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "222",
+          "name": "Ardent Sports",
+          "lat": 46.196583,
+          "lng": 6.694413,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/222?referer=skiquality.com",
+          "address": "Centre Station"
+        },
+        {
+          "id": "223",
+          "name": "Ardent Sports (Télécabine Ardent)",
+          "lat": 46.214481,
+          "lng": 6.761194,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/223?referer=skiquality.com",
+          "address": "Télécabine d'Ardent - Domaine d'Avoriaz"
+        }
+      ]
+    },
+    "montvilliers": {
+      "name": "Montvilliers",
+      "center": [
+        45.54001,
+        6.64648
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4963",
+          "name": "Wocan Delivery - Montvilliers",
+          "lat": 45.54001,
+          "lng": 6.64648,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4963?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "morillon-village": {
+      "name": "Morillon Village",
+      "center": [
+        46.08248,
+        6.678979
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "225",
+          "name": "Denarié Sport",
+          "lat": 46.084225,
+          "lng": 6.675152,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/225?referer=skiquality.com",
+          "address": "75 Route de Cluses"
+        },
+        {
+          "id": "4395",
+          "name": "Ski Republic Centre Station J'aime Sport",
+          "lat": 46.081672,
+          "lng": 6.682589,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4395?referer=skiquality.com",
+          "address": "Le Messidor"
+        },
+        {
+          "id": "2257",
+          "name": "Verneret Sports",
+          "lat": 46.081684,
+          "lng": 6.679087,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2257?referer=skiquality.com",
+          "address": "Résidence Edelweiss des Neiges"
+        },
+        {
+          "id": "4236",
+          "name": "Verneret sports",
+          "lat": 46.08234,
+          "lng": 6.679087,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4236?referer=skiquality.com",
+          "address": "Résidence l'Honoraz"
+        }
+      ]
+    },
+    "morzine": {
+      "name": "Morzine",
+      "center": [
+        46.183184,
+        6.708804
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4678",
+          "name": "Ekosport-rent Alpine Sports",
+          "lat": 46.183026,
+          "lng": 6.701688,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4678?referer=skiquality.com",
+          "address": "237 Route de la Plagne"
+        },
+        {
+          "id": "1482",
+          "name": "Le Bourg",
+          "lat": 46.179379,
+          "lng": 6.706317,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1482?referer=skiquality.com",
+          "address": "180, rue du Bourg"
+        },
+        {
+          "id": "226",
+          "name": "Mathias Sport",
+          "lat": 46.180962,
+          "lng": 6.702649,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/226?referer=skiquality.com",
+          "address": "60 TDM du Pleney"
+        },
+        {
+          "id": "2046",
+          "name": "Mathias Sports (Hôtel Le Crêt)",
+          "lat": 46.187477,
+          "lng": 6.695261,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2046?referer=skiquality.com",
+          "address": "905 Route de la Plagne"
+        },
+        {
+          "id": "4353",
+          "name": "Precision Ski Front De Neige Pleney La Clinik",
+          "lat": 46.180279,
+          "lng": 6.70231,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4353?referer=skiquality.com",
+          "address": "141 Taille de Mas du Pleney"
+        },
+        {
+          "id": "4146",
+          "name": "Prodains Sports",
+          "lat": 46.189808,
+          "lng": 6.753858,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4146?referer=skiquality.com",
+          "address": "Les prodains"
+        },
+        {
+          "id": "2260",
+          "name": "Ski Republic Centre Station Morz'na Sport",
+          "lat": 46.181095,
+          "lng": 6.705067,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2260?referer=skiquality.com",
+          "address": "3 Rond-Point de la Crusaz"
+        },
+        {
+          "id": "1484",
+          "name": "Super Morzine",
+          "lat": 46.183445,
+          "lng": 6.70328,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1484?referer=skiquality.com",
+          "address": "9 Taille Mas de la Passerelle"
+        }
+      ]
+    },
+    "nancroix": {
+      "name": "Nancroix",
+      "center": [
+        45.53546,
+        6.77077
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4913",
+          "name": "Wocan Delivery - Nancroix",
+          "lat": 45.53546,
+          "lng": 6.77077,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4913?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "notre-dame-du-pre": {
+      "name": "Notre dame-du-pré",
+      "center": [
+        45.51149,
+        6.59446
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4997",
+          "name": "Wocan Delivery - Notre dame-du-pré",
+          "lat": 45.51149,
+          "lng": 6.59446,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4997?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "orcieres-merlette": {
+      "name": "Orcières Merlette",
+      "center": [
+        44.696489,
+        6.324292
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "243",
+          "name": "Bear Valley",
+          "lat": 44.69619,
+          "lng": 6.321281,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/243?referer=skiquality.com",
+          "address": "Rue de la grande Ours - Centre Station - parking d'arrivée"
+        },
+        {
+          "id": "4772",
+          "name": "Ekosport-rent Mountain Pass",
+          "lat": 44.696872,
+          "lng": 6.325313,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4772?referer=skiquality.com",
+          "address": "Montée du Roc Blanc"
+        },
+        {
+          "id": "4021",
+          "name": "Queyrelet Sports",
+          "lat": 44.696404,
+          "lng": 6.326282,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4021?referer=skiquality.com",
+          "address": "Place du Queyrelet - Bâtiment 2"
+        }
+      ]
+    },
+    "oz-en-oisans": {
+      "name": "Oz en Oisans",
+      "center": [
+        45.128968,
+        6.071994
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "284",
+          "name": "Boit'a Skis",
+          "lat": 45.129765,
+          "lng": 6.072309,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/284?referer=skiquality.com",
+          "address": "Résidence les Airelles"
+        },
+        {
+          "id": "4318",
+          "name": "Ekosport-rent Loc Skis OZ",
+          "lat": 45.12817,
+          "lng": 6.07168,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4318?referer=skiquality.com",
+          "address": "Front de Neige"
+        }
+      ]
+    },
+    "peisey-vallandry": {
+      "name": "Peisey Vallandry",
+      "center": [
+        45.555409,
+        6.76246
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "368",
+          "name": "Berard Skishop",
+          "lat": 45.556419,
+          "lng": 6.762444,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/368?referer=skiquality.com",
+          "address": "Centre Commercial de Vallandry"
+        },
+        {
+          "id": "4310",
+          "name": "Ekosport-rent Berard Skishop Vallandry",
+          "lat": 45.556625,
+          "lng": 6.762238,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4310?referer=skiquality.com",
+          "address": "Galerie Commerciale de Vallandry , Rte des Michailles, 73210 Landry"
+        },
+        {
+          "id": "369",
+          "name": "Noz Sports",
+          "lat": 45.552105,
+          "lng": 6.762393,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/369?referer=skiquality.com",
+          "address": "Centre Cial du Soleil / Plan Peisey"
+        },
+        {
+          "id": "3505",
+          "name": "Vallandry Sports",
+          "lat": 45.556488,
+          "lng": 6.762763,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3505?referer=skiquality.com",
+          "address": "Centre Commercial Vallandry, D226"
+        }
+      ]
+    },
+    "piau-engally": {
+      "name": "Piau Engaly",
+      "center": [
+        42.784336,
+        0.158468
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "300",
+          "name": "Ligne Blanche",
+          "lat": 42.784336,
+          "lng": 0.158468,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/300?referer=skiquality.com",
+          "address": "Centre Commercial Aragnouet"
+        }
+      ]
+    },
+    "plagne-soleil": {
+      "name": "La Plagne Soleil",
+      "center": [
+        45.508314,
+        6.686406
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2714",
+          "name": "Oxygene ski shop",
+          "lat": 45.508099,
+          "lng": 6.686602,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2714?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        },
+        {
+          "id": "4713",
+          "name": "Wocan Delivery - Plagne Soleil",
+          "lat": 45.50853,
+          "lng": 6.68621,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4713?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "plan-peisey": {
+      "name": "Plan Peisey",
+      "center": [
+        45.552719,
+        6.76214
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4309",
+          "name": "Ekosport-rent Berard Skishop Peisey",
+          "lat": 45.552719,
+          "lng": 6.76214,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4309?referer=skiquality.com",
+          "address": "Résidence Les Cordettes Plan Peisey"
+        }
+      ]
+    },
+    "plangagnant": {
+      "name": "Plangagnant",
+      "center": [
+        45.52876,
+        6.67534
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4955",
+          "name": "Wocan Delivery - Plangagnant",
+          "lat": 45.52876,
+          "lng": 6.67534,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4955?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "pombliere": {
+      "name": "Pomblière",
+      "center": [
+        45.49856,
+        6.55937
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4989",
+          "name": "Wocan Delivery - Pomblière",
+          "lat": 45.49856,
+          "lng": 6.55937,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4989?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "pra-loup": {
+      "name": "Pra Loup",
+      "center": [
+        44.369874,
+        6.603407
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4683",
+          "name": "La Placette",
+          "lat": 44.370373,
+          "lng": 6.603739,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4683?referer=skiquality.com",
+          "address": "Le Chenonceau II"
+        },
+        {
+          "id": "4066",
+          "name": "Precision ski Centre Station Verdier Sport",
+          "lat": 44.369148,
+          "lng": 6.603926,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4066?referer=skiquality.com",
+          "address": "Centre Commercial Le Cheverny"
+        },
+        {
+          "id": "4376",
+          "name": "Sport Attitude Pra Loup",
+          "lat": 44.370541,
+          "lng": 6.60351,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4376?referer=skiquality.com",
+          "address": "Galerie commerçante Pra Loup 1600"
+        },
+        {
+          "id": "1729",
+          "name": "Wolf Ski Shop",
+          "lat": 44.369434,
+          "lng": 6.602451,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1729?referer=skiquality.com",
+          "address": "Immeuble le Clos du Loup (Parking du Loup Blanc)"
+        }
+      ]
+    },
+    "pralognan-la-vanoise": {
+      "name": "Pralognan la Vanoise",
+      "center": [
+        45.38056,
+        6.72271
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1722",
+          "name": "Alpigliss",
+          "lat": 45.379868,
+          "lng": 6.723019,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1722?referer=skiquality.com",
+          "address": "Immeuble l Avenue de Chasseforêt"
+        },
+        {
+          "id": "2490",
+          "name": "Precision Ski Centre Station Soopy",
+          "lat": 45.381252,
+          "lng": 6.722402,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2490?referer=skiquality.com",
+          "address": "47 Avenue du Grand Couloir"
+        }
+      ]
+    },
+    "prapoutel-les-7-laux": {
+      "name": "Prapoutel (Les 7 Laux)",
+      "center": [
+        45.256653,
+        5.994876
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4311",
+          "name": "Ekosport-rent Locaski",
+          "lat": 45.25666,
+          "lng": 5.99489,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4311?referer=skiquality.com",
+          "address": "Immeuble L'Agnelin Lieu-dit, 38190 Les Adrets"
+        },
+        {
+          "id": "276",
+          "name": "Technisport",
+          "lat": 45.256645,
+          "lng": 5.994861,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/276?referer=skiquality.com",
+          "address": "Les Adrets"
+        }
+      ]
+    },
+    "praz-sur-arly": {
+      "name": "Praz Sur Arly",
+      "center": [
+        45.837303,
+        6.570165
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "228",
+          "name": "Curtet Sport",
+          "lat": 45.837303,
+          "lng": 6.570165,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/228?referer=skiquality.com",
+          "address": "121, route du Val d'Arly"
+        }
+      ]
+    },
+    "puy-st-vincent-1400": {
+      "name": "Puy St Vincent 1400",
+      "center": [
+        44.826771,
+        6.499279
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "245",
+          "name": "Sport 1400",
+          "lat": 44.826771,
+          "lng": 6.499279,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/245?referer=skiquality.com",
+          "address": "Le Chalet  - 395 Route des Près"
+        }
+      ]
+    },
+    "puy-st-vincent-1600": {
+      "name": "Puy St Vincent 1600",
+      "center": [
+        44.819466,
+        6.4828
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1715",
+          "name": "Sport 1600",
+          "lat": 44.819466,
+          "lng": 6.4828,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1715?referer=skiquality.com",
+          "address": "IMMEUBLE \"La Chaumière\" - STATION 1600"
+        }
+      ]
+    },
+    "risoul-1850": {
+      "name": "Risoul 1850",
+      "center": [
+        44.622331,
+        6.634357
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1991",
+          "name": "Le Chalet du Skieur",
+          "lat": 44.622978,
+          "lng": 6.634865,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1991?referer=skiquality.com",
+          "address": "Rue de la foret blanche"
+        },
+        {
+          "id": "2270",
+          "name": "Precision Ski Centre Station Bernard Sports",
+          "lat": 44.622013,
+          "lng": 6.633875,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2270?referer=skiquality.com",
+          "address": "Rue Centrale - Les Chalps"
+        },
+        {
+          "id": "2335",
+          "name": "Ski Republic Centre Station Gliss Concept",
+          "lat": 44.622002,
+          "lng": 6.63433,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2335?referer=skiquality.com",
+          "address": "Rdc Hôtel le Morgan"
+        }
+      ]
+    },
+    "saint-colomban-des-villards": {
+      "name": "Saint Colomban des Villards",
+      "center": [
+        45.29414,
+        6.226481
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "372",
+          "name": "Skis Services",
+          "lat": 45.29414,
+          "lng": 6.226481,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/372?referer=skiquality.com",
+          "address": "Centre Station Village"
+        }
+      ]
+    },
+    "saint-francois-longchamp": {
+      "name": "Saint Francois Longchamp",
+      "center": [
+        45.418245,
+        6.363052
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3550",
+          "name": "Ravoir'sports (L’Alouette)",
+          "lat": 45.418812,
+          "lng": 6.364683,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3550?referer=skiquality.com",
+          "address": "L’Alouette"
+        },
+        {
+          "id": "373",
+          "name": "Ravoir'sports (La Madeleine)",
+          "lat": 45.417191,
+          "lng": 6.362641,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/373?referer=skiquality.com",
+          "address": "Résidence La Madeleine"
+        },
+        {
+          "id": "374",
+          "name": "Ravoir'sports (les 4 Vallées)",
+          "lat": 45.421001,
+          "lng": 6.363945,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/374?referer=skiquality.com",
+          "address": "Les 4 vallées"
+        },
+        {
+          "id": "375",
+          "name": "Ravoir'sports (les Longes)",
+          "lat": 45.415245,
+          "lng": 6.358802,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/375?referer=skiquality.com",
+          "address": "Les Longes"
+        },
+        {
+          "id": "2336",
+          "name": "Ski Rep Centre 1650 St François Sports Madeleine",
+          "lat": 45.416912,
+          "lng": 6.362846,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2336?referer=skiquality.com",
+          "address": "place de la Madeleine"
+        },
+        {
+          "id": "4679",
+          "name": "Ski Republic Centre Station 1650 SNO2",
+          "lat": 45.420311,
+          "lng": 6.365398,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4679?referer=skiquality.com",
+          "address": "Immeuble le Frêne - Place de la Lauzière"
+        }
+      ]
+    },
+    "saint-gervais-les-bains": {
+      "name": "Saint Gervais Les Bains",
+      "center": [
+        45.886419,
+        6.703661
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "5049",
+          "name": "Ago Sports",
+          "lat": 45.89223,
+          "lng": 6.71288,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/5049?referer=skiquality.com",
+          "address": "129 avenue du Mont d'Arbois"
+        },
+        {
+          "id": "229",
+          "name": "Loca Ski Bettex",
+          "lat": 45.875011,
+          "lng": 6.685119,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/229?referer=skiquality.com",
+          "address": "4360 Route du Bettex"
+        },
+        {
+          "id": "1232",
+          "name": "Loca Ski Saint Gervais",
+          "lat": 45.892017,
+          "lng": 6.712985,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1232?referer=skiquality.com",
+          "address": "191 avenue du Mont d'Arbois"
+        }
+      ]
+    },
+    "saint-jean-darves": {
+      "name": "Saint Jean d'Arves",
+      "center": [
+        45.214262,
+        6.264051
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2275",
+          "name": "Raymond Sports",
+          "lat": 45.2141,
+          "lng": 6.264192,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2275?referer=skiquality.com",
+          "address": "La Chal"
+        },
+        {
+          "id": "1227",
+          "name": "Val d'Arvan",
+          "lat": 45.214424,
+          "lng": 6.26391,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1227?referer=skiquality.com",
+          "address": "La Chal 1600"
+        }
+      ]
+    },
+    "saint-jean-daulps": {
+      "name": "Saint Jean d'Aulps",
+      "center": [
+        46.227413,
+        6.644184
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1699",
+          "name": "Au Schuss",
+          "lat": 46.226578,
+          "lng": 6.640961,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1699?referer=skiquality.com",
+          "address": "29-32 Route de la Moussière d'en Haut"
+        },
+        {
+          "id": "4047",
+          "name": "Ski Republic Centre Station Roc d'Enfer Sports",
+          "lat": 46.228249,
+          "lng": 6.647407,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4047?referer=skiquality.com",
+          "address": "Résidence L'Enchaple - 2860, Route de La Moussière d'En Haut"
+        }
+      ]
+    },
+    "saint-lary-village": {
+      "name": "Saint Lary (Village)",
+      "center": [
+        42.818174,
+        0.323205
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4697",
+          "name": "4 Seasons Sport",
+          "lat": 42.817514,
+          "lng": 0.32372,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4697?referer=skiquality.com",
+          "address": "21 rue Vincent Mir - Au coeur des résidences - 200m de la télécabine"
+        },
+        {
+          "id": "4329",
+          "name": "Ekosport-rent Ski +",
+          "lat": 42.819534,
+          "lng": 0.323214,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4329?referer=skiquality.com",
+          "address": "17 avenue des Thermes"
+        },
+        {
+          "id": "1695",
+          "name": "Signature Loc Aventure",
+          "lat": 42.817474,
+          "lng": 0.322682,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1695?referer=skiquality.com",
+          "address": "5 Rue de Soulan - 100m du Téléphérique et 50m de l'Ecole du ski Français"
+        }
+      ]
+    },
+    "saint-leger-les-melezes": {
+      "name": "Saint Leger les Melezes",
+      "center": [
+        44.643436,
+        6.200312
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "249",
+          "name": "Eymar Dauphin Sports",
+          "lat": 44.643436,
+          "lng": 6.200312,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/249?referer=skiquality.com",
+          "address": "Galerie Commerciale (face aux pistes)"
+        }
+      ]
+    },
+    "saint-marcel": {
+      "name": "Saint marcel",
+      "center": [
+        45.51249,
+        6.56718
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4993",
+          "name": "Wocan Delivery - Saint Marcel",
+          "lat": 45.51249,
+          "lng": 6.56718,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4993?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "saint-martin-de-belleville": {
+      "name": "Saint Martin de Belleville",
+      "center": [
+        45.376705,
+        6.505126
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "3547",
+          "name": "Belleville Pro Glisse",
+          "lat": 45.376114,
+          "lng": 6.506037,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3547?referer=skiquality.com",
+          "address": "Chemin de Notre Dame - quartier CASEBLANCHE"
+        },
+        {
+          "id": "378",
+          "name": "Jean Sports",
+          "lat": 45.377296,
+          "lng": 6.504215,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/378?referer=skiquality.com",
+          "address": "Les Grangeraies - Rue Notre Dame"
+        }
+      ]
+    },
+    "saint-sorlin-darves": {
+      "name": "Saint Sorlin d'Arves",
+      "center": [
+        45.220677,
+        6.224942
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1723",
+          "name": "Arthur Sports",
+          "lat": 45.22131,
+          "lng": 6.229232,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1723?referer=skiquality.com",
+          "address": "Centre vil Champrond"
+        },
+        {
+          "id": "4659",
+          "name": "Ekosport-rent L’Ouillon Sports",
+          "lat": 45.22029,
+          "lng": 6.22277,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4659?referer=skiquality.com",
+          "address": "Les Gentianes - Le Bourg"
+        },
+        {
+          "id": "379",
+          "name": "L'Ouillon Sports",
+          "lat": 45.220432,
+          "lng": 6.222823,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/379?referer=skiquality.com",
+          "address": "Les Gentianes - Le Bourg"
+        }
+      ]
+    },
+    "sainte-foy-tarentaise": {
+      "name": "Sainte Foy Tarentaise",
+      "center": [
+        45.576092,
+        6.89393
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2182",
+          "name": "Ski Republic Ste Foy Centre",
+          "lat": 45.576092,
+          "lng": 6.89393,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2182?referer=skiquality.com",
+          "address": "Bon Conseil"
+        }
+      ]
+    },
+    "samoens": {
+      "name": "Samoëns",
+      "center": [
+        46.082177,
+        6.724652
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2812",
+          "name": "100% Ski",
+          "lat": 46.084194,
+          "lng": 6.724645,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2812?referer=skiquality.com",
+          "address": "166 Grande rue"
+        },
+        {
+          "id": "4319",
+          "name": "Ekosport-rent - Pellissier Sport",
+          "lat": 46.083561,
+          "lng": 6.725349,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4319?referer=skiquality.com",
+          "address": "47 Grande Rue"
+        },
+        {
+          "id": "232",
+          "name": "Passion Glisse",
+          "lat": 46.082684,
+          "lng": 6.723763,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/232?referer=skiquality.com",
+          "address": "16 Place de la Gare"
+        },
+        {
+          "id": "4668",
+          "name": "Precision Ski Route de Sixt Big Bear",
+          "lat": 46.08282,
+          "lng": 6.72867,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4668?referer=skiquality.com",
+          "address": "93B Place du Criou"
+        },
+        {
+          "id": "2338",
+          "name": "Ski Family",
+          "lat": 46.083778,
+          "lng": 6.723722,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2338?referer=skiquality.com",
+          "address": "58, rue des Glaciers"
+        },
+        {
+          "id": "4396",
+          "name": "Ski Rep Route du Grand Massif Sports Experiences",
+          "lat": 46.076927,
+          "lng": 6.720211,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4396?referer=skiquality.com",
+          "address": "718 route du Grand Massif"
+        },
+        {
+          "id": "4397",
+          "name": "Ski Republic Avenue Fer à Cheval - J'aime Sport",
+          "lat": 46.081272,
+          "lng": 6.726202,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4397?referer=skiquality.com",
+          "address": "217 avenue du Fer à Cheval"
+        }
+      ]
+    },
+    "samoens-1600": {
+      "name": "Samoëns 1600",
+      "center": [
+        46.053192,
+        6.698694
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2494",
+          "name": "Ski Loc",
+          "lat": 46.053192,
+          "lng": 6.698694,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2494?referer=skiquality.com",
+          "address": "Le Plateaux des Saix"
+        }
+      ]
+    },
+    "sangot": {
+      "name": "Sangot",
+      "center": [
+        45.55643,
+        6.68213
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4741",
+          "name": "Wocan Delivery - Sangot",
+          "lat": 45.55643,
+          "lng": 6.68213,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4741?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "seez": {
+      "name": "Séez",
+      "center": [
+        45.62206,
+        6.80087
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4735",
+          "name": "Wocan Delivery - Séez",
+          "lat": 45.62206,
+          "lng": 6.80087,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4735?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "serre-chevalier-1200-briancon": {
+      "name": "Serre Chevalier 1200 (Briancon)",
+      "center": [
+        44.896738,
+        6.630912
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4323",
+          "name": "Ekosport-rent Riquet Sport Briancon",
+          "lat": 44.896755,
+          "lng": 6.631006,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4323?referer=skiquality.com",
+          "address": "7 Avenue rené Froger"
+        },
+        {
+          "id": "250",
+          "name": "Krakatoa",
+          "lat": 44.896721,
+          "lng": 6.630818,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/250?referer=skiquality.com",
+          "address": "7 René Froger"
+        }
+      ]
+    },
+    "serre-chevalier-1350": {
+      "name": "Serre Chevalier 1350 (Chantemerle)",
+      "center": [
+        44.933413,
+        6.587615
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4324",
+          "name": "Ekosport-rent Riquet Sport Chantemerle",
+          "lat": 44.933178,
+          "lng": 6.587023,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4324?referer=skiquality.com",
+          "address": "603 rue du centre- Centre commercial le serre d'aigl"
+        },
+        {
+          "id": "2340",
+          "name": "Freeride Chantemerle Sport Rent",
+          "lat": 44.9342,
+          "lng": 6.58802,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2340?referer=skiquality.com",
+          "address": "23 rue de l'Eyrette - Le Val St Bernard"
+        },
+        {
+          "id": "2143",
+          "name": "Sport 2000 Altitude (Chantemerle)",
+          "lat": 44.932861,
+          "lng": 6.587801,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2143?referer=skiquality.com",
+          "address": "Place du Téléphérique, Chantemerle"
+        }
+      ]
+    },
+    "serre-chevalier-1400": {
+      "name": "Serre Chevalier 1400 (Villeneuve)",
+      "center": [
+        44.944473,
+        6.56154
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2341",
+          "name": "Freeride Villeneuve Sport Rent",
+          "lat": 44.944847,
+          "lng": 6.562041,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2341?referer=skiquality.com",
+          "address": "5 Place du Verney"
+        },
+        {
+          "id": "4676",
+          "name": "Ski Republic Villeneuve Dr Feelgood",
+          "lat": 44.94362,
+          "lng": 6.56401,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4676?referer=skiquality.com",
+          "address": "7, place de l'Aravet - Immeuble La Meije"
+        },
+        {
+          "id": "253",
+          "name": "Sport 2000 Altitude (Villeneuve)",
+          "lat": 44.945732,
+          "lng": 6.556645,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/253?referer=skiquality.com",
+          "address": "6 Chemin de l'Oratoire"
+        },
+        {
+          "id": "251",
+          "name": "Sport's Mountain",
+          "lat": 44.943691,
+          "lng": 6.563463,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/251?referer=skiquality.com",
+          "address": "Centre Cial L'Aravet - La Salle"
+        }
+      ]
+    },
+    "serre-chevalier-1500-le-monetier-les-bains": {
+      "name": "Serre Chevalier 1500 (Le Monêtier les Bains)",
+      "center": [
+        44.976267,
+        6.508641
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1733",
+          "name": "Altitude Serre Chevalier le Monetier",
+          "lat": 44.97657,
+          "lng": 6.506316,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1733?referer=skiquality.com",
+          "address": "186 Résidence le château - Route de Grenoble"
+        },
+        {
+          "id": "2339",
+          "name": "Freeride Mônetier-les-Bains Sport Rent",
+          "lat": 44.975964,
+          "lng": 6.510966,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2339?referer=skiquality.com",
+          "address": "531 Route de Grenoble"
+        }
+      ]
+    },
+    "serre-chevalier-villeneuve": {
+      "name": "Serre Chevalier 1400 (Salle les Alpes)",
+      "center": [
+        44.945046,
+        6.561685
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4325",
+          "name": "Ekosport-rent Riquet Sport Aravet",
+          "lat": 44.943626,
+          "lng": 6.564079,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4325?referer=skiquality.com",
+          "address": "Place de l'Aravet"
+        },
+        {
+          "id": "4331",
+          "name": "Riquet Sport Prelong",
+          "lat": 44.946465,
+          "lng": 6.55929,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4331?referer=skiquality.com",
+          "address": "Centre Commercial Pré Long, 1 Rte de Pré-Long"
+        }
+      ]
+    },
+    "sixt-fer-a-cheval": {
+      "name": "Sixt Fer A Cheval",
+      "center": [
+        46.053406,
+        6.774293
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "234",
+          "name": "Lionel Sports",
+          "lat": 46.053406,
+          "lng": 6.774293,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/234?referer=skiquality.com",
+          "address": "Le Ruan - Chef Lieu"
+        }
+      ]
+    },
+    "st-chaffrey": {
+      "name": "Serre Chevalier (St Chaffrey)",
+      "center": [
+        44.9342,
+        6.58802
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4355",
+          "name": "Precision Ski Chantemerle Reysports",
+          "lat": 44.9342,
+          "lng": 6.58802,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4355?referer=skiquality.com",
+          "address": "451 rue du centre"
+        }
+      ]
+    },
+    "super-besse": {
+      "name": "Super Besse",
+      "center": [
+        45.51226,
+        2.854669
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1694",
+          "name": "L'Igloo",
+          "lat": 45.511539,
+          "lng": 2.855598,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1694?referer=skiquality.com",
+          "address": "13 rond point des pistes - 63610"
+        },
+        {
+          "id": "2496",
+          "name": "Ski Republic Centre Station Le Cabri",
+          "lat": 45.512497,
+          "lng": 2.853981,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2496?referer=skiquality.com",
+          "address": "3 Rond Point des Pistes"
+        },
+        {
+          "id": "1692",
+          "name": "Ski Shop Falgoux",
+          "lat": 45.512745,
+          "lng": 2.854429,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1692?referer=skiquality.com",
+          "address": "Rond Point Des Pistes"
+        }
+      ]
+    },
+    "super-lioran": {
+      "name": "Super Lioran",
+      "center": [
+        45.085513,
+        2.746781
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "186",
+          "name": "J'sports Font d'Alagnon",
+          "lat": 45.08313,
+          "lng": 2.749653,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/186?referer=skiquality.com",
+          "address": "Centre Commercial Font d'Alagnon"
+        },
+        {
+          "id": "187",
+          "name": "J’sports Prairie des Sagnes",
+          "lat": 45.088146,
+          "lng": 2.744417,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/187?referer=skiquality.com",
+          "address": "Centre Station - Prairie des Sagnes"
+        },
+        {
+          "id": "3276",
+          "name": "Les Portes du Sud",
+          "lat": 45.088028,
+          "lng": 2.743866,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3276?referer=skiquality.com",
+          "address": "Residence Les Portes du Sud"
+        },
+        {
+          "id": "4661",
+          "name": "Lioran Sports - Centre Station",
+          "lat": 45.08275,
+          "lng": 2.74919,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4661?referer=skiquality.com",
+          "address": "Prairie des Sagnes"
+        }
+      ]
+    },
+    "superdevoluy": {
+      "name": "Super Devoluy",
+      "center": [
+        44.677138,
+        5.926949
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1223",
+          "name": "Altiski (Aurouze)",
+          "lat": 44.675934,
+          "lng": 5.927904,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1223?referer=skiquality.com",
+          "address": "Batiment du Bois d'Aurouze"
+        },
+        {
+          "id": "255",
+          "name": "Altiski (Issarts)",
+          "lat": 44.677639,
+          "lng": 5.926261,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/255?referer=skiquality.com",
+          "address": "Rond point des Issarts"
+        },
+        {
+          "id": "2390",
+          "name": "Ski Republic Front De Neige All Ski Rent",
+          "lat": 44.677841,
+          "lng": 5.926683,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2390?referer=skiquality.com",
+          "address": "Residence du Bois d'aurouze, Station de Super Dévoluy"
+        }
+      ]
+    },
+    "tignes-lavachet": {
+      "name": "Tignes Lavachet",
+      "center": [
+        45.471884,
+        6.914757
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2480",
+          "name": "Ski Republic Lavachet",
+          "lat": 45.471951,
+          "lng": 6.91464,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2480?referer=skiquality.com",
+          "address": "Hameau de Tovière Lot300"
+        },
+        {
+          "id": "2109",
+          "name": "Tignes Spirit Rental",
+          "lat": 45.471817,
+          "lng": 6.914874,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2109?referer=skiquality.com",
+          "address": "Shop 1, Centre Commercial du Lavachet Lavachet"
+        }
+      ]
+    },
+    "tignes-le-lac": {
+      "name": "Tignes Le Lac",
+      "center": [
+        45.468987,
+        6.907297
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1973",
+          "name": "La Godille de Tignes",
+          "lat": 45.468307,
+          "lng": 6.909399,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1973?referer=skiquality.com",
+          "address": "Quartier L Promenade de Tovière - Le Rosset"
+        },
+        {
+          "id": "4217",
+          "name": "Monkey riders",
+          "lat": 45.46875,
+          "lng": 6.90485,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4217?referer=skiquality.com",
+          "address": "Immeuble le Palafour - Rue de la poste"
+        },
+        {
+          "id": "2167",
+          "name": "Precision Ski Le Lac",
+          "lat": 45.46833,
+          "lng": 6.90862,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2167?referer=skiquality.com",
+          "address": "Résidence Le Rosset Neige et Soleil, Route du Lavachet"
+        },
+        {
+          "id": "2504",
+          "name": "Precision Ski Palafour",
+          "lat": 45.468971,
+          "lng": 6.90583,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2504?referer=skiquality.com",
+          "address": "Front de Neige - Immeuble Palafour"
+        },
+        {
+          "id": "1551",
+          "name": "Quartier des Almes",
+          "lat": 45.470577,
+          "lng": 6.907787,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1551?referer=skiquality.com",
+          "address": "Quartier des Almes"
+        }
+      ]
+    },
+    "tignes-les-boisses": {
+      "name": "Tignes les Boisses",
+      "center": [
+        45.496147,
+        6.927536
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "384",
+          "name": "Alpes Glisses",
+          "lat": 45.496147,
+          "lng": 6.927536,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/384?referer=skiquality.com",
+          "address": "Chalet de Bazel Kalinda Altaviva- 20 Rue de Ronnaz - Tignes 1800 Les Boisses"
+        }
+      ]
+    },
+    "tignes-les-breviere": {
+      "name": "Tignes les Brevieres",
+      "center": [
+        45.50761,
+        6.91982
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1544",
+          "name": "Les Brévières",
+          "lat": 45.50761,
+          "lng": 6.91982,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1544?referer=skiquality.com",
+          "address": "Centre Station- Les Brévières- Rue principale"
+        }
+      ]
+    },
+    "tignes-val-claret": {
+      "name": "Tignes Val Claret",
+      "center": [
+        45.45527,
+        6.899997
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "1865",
+          "name": "Antarctik",
+          "lat": 45.453705,
+          "lng": 6.898814,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1865?referer=skiquality.com",
+          "address": "Avenue de Rond Point Des Pistes - Val Claret"
+        },
+        {
+          "id": "3181",
+          "name": "Arctik",
+          "lat": 45.457073,
+          "lng": 6.900905,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3181?referer=skiquality.com",
+          "address": "Le Grand Tichot - Val Claret Centre"
+        },
+        {
+          "id": "2164",
+          "name": "Precision Ski Tignes Val Claret - Centre",
+          "lat": 45.457039,
+          "lng": 6.900927,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2164?referer=skiquality.com",
+          "address": "Résidence Les Platières, Hauts du Val Claret"
+        },
+        {
+          "id": "2482",
+          "name": "Ski Republic Le Borsat",
+          "lat": 45.453701,
+          "lng": 6.90135,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2482?referer=skiquality.com",
+          "address": "Immeuble Le Borsat"
+        },
+        {
+          "id": "2165",
+          "name": "Ski Republic Val Claret Diva",
+          "lat": 45.454208,
+          "lng": 6.89846,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2165?referer=skiquality.com",
+          "address": "Belambra Club \"Le Diva\""
+        },
+        {
+          "id": "385",
+          "name": "Sport Glisse",
+          "lat": 45.455753,
+          "lng": 6.901094,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/385?referer=skiquality.com",
+          "address": "LES HAUTS DU VAL CLARET, PLACE DU CURLING"
+        },
+        {
+          "id": "3129",
+          "name": "Yab Sports",
+          "lat": 45.455414,
+          "lng": 6.898431,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3129?referer=skiquality.com",
+          "address": "Route de la Grande Motte Immeuble le Diva"
+        }
+      ]
+    },
+    "val-cenis": {
+      "name": "Val Cenis",
+      "center": [
+        45.285275,
+        6.876508
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2292",
+          "name": "Ski Republic Centre Lanslebourg César Sports",
+          "lat": 45.285275,
+          "lng": 6.876508,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2292?referer=skiquality.com",
+          "address": "29 Rue du Mont Cenis"
+        }
+      ]
+    },
+    "val-disere": {
+      "name": "Val d'Isère",
+      "center": [
+        45.450054,
+        6.977164
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "390",
+          "name": "Boraso Sport",
+          "lat": 45.448025,
+          "lng": 6.979373,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/390?referer=skiquality.com",
+          "address": "Place des Dolmites"
+        },
+        {
+          "id": "2631",
+          "name": "Boraso Sport Contact",
+          "lat": 45.459995,
+          "lng": 6.964077,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2631?referer=skiquality.com",
+          "address": "Route Des Etroits - La Daille"
+        },
+        {
+          "id": "388",
+          "name": "Eskiador Val d'Isère",
+          "lat": 45.452847,
+          "lng": 6.973773,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/388?referer=skiquality.com",
+          "address": "389 Avenue Olympique – Résidence le Portillo"
+        },
+        {
+          "id": "2160",
+          "name": "Freeride Val d'Isère",
+          "lat": 45.44828,
+          "lng": 6.98043,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2160?referer=skiquality.com",
+          "address": "Immeuble Val Village C, Rue de la Poste"
+        },
+        {
+          "id": "389",
+          "name": "Iseran Sports",
+          "lat": 45.446964,
+          "lng": 6.986606,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/389?referer=skiquality.com",
+          "address": "Résidence Avenue du Prariond"
+        },
+        {
+          "id": "2506",
+          "name": "Precision Ski La Poudreuse",
+          "lat": 45.449566,
+          "lng": 6.977076,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2506?referer=skiquality.com",
+          "address": "Rue du Parc des Sports"
+        },
+        {
+          "id": "2179",
+          "name": "Ski Republic Centre Station  Rond Point des Pistes",
+          "lat": 45.44521,
+          "lng": 6.97716,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2179?referer=skiquality.com",
+          "address": "Rond Point des Pistes"
+        },
+        {
+          "id": "2180",
+          "name": "Ski Republic Centre Station Portillo",
+          "lat": 45.452599,
+          "lng": 6.97389,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2180?referer=skiquality.com",
+          "address": "Immeuble le Portillo, Avenue Olympique"
+        },
+        {
+          "id": "2181",
+          "name": "Ski Republic Centre Station Val Village",
+          "lat": 45.4478,
+          "lng": 6.97986,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2181?referer=skiquality.com",
+          "address": "Le Front de Neige"
+        },
+        {
+          "id": "3268",
+          "name": "Valsnow",
+          "lat": 45.449257,
+          "lng": 6.979396,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3268?referer=skiquality.com",
+          "address": "Centre station Val Snow, 173 Av. Olympique"
+        }
+      ]
+    },
+    "val-disere-la-daille": {
+      "name": "Val d'Isère La Daille",
+      "center": [
+        45.461849,
+        6.96401
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4300",
+          "name": "Ski Republic Val d'Isère La Daille",
+          "lat": 45.461849,
+          "lng": 6.96401,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4300?referer=skiquality.com",
+          "address": "78 place du Bellecôte"
+        }
+      ]
+    },
+    "val-thorens": {
+      "name": "Val Thorens",
+      "center": [
+        45.297521,
+        6.581331
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "393",
+          "name": "AUDACIUS SHOP",
+          "lat": 45.297527,
+          "lng": 6.583314,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/393?referer=skiquality.com",
+          "address": "Galerie Commerciale de l'Hotel \"le Val Thorens\""
+        },
+        {
+          "id": "2296",
+          "name": "Black Ski Soleil Maverick",
+          "lat": 45.296791,
+          "lng": 6.578515,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2296?referer=skiquality.com",
+          "address": "Immeuble Montana Soleil, rue du Soleil"
+        },
+        {
+          "id": "2297",
+          "name": "Chalet des Neiges Skishop",
+          "lat": 45.297092,
+          "lng": 6.586167,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2297?referer=skiquality.com",
+          "address": "Résidence chalet des neiges - Rue de Gebroulaz"
+        },
+        {
+          "id": "392",
+          "name": "Eskiador Val Thorens",
+          "lat": 45.296902,
+          "lng": 6.576864,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/392?referer=skiquality.com",
+          "address": "599 Rue  Du Soleil"
+        },
+        {
+          "id": "2294",
+          "name": "SALOMON Corner-The North Face Val Thorens",
+          "lat": 45.298,
+          "lng": 6.580929,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2294?referer=skiquality.com",
+          "address": "101 rue Caron, Galerie Caron, lot 20"
+        },
+        {
+          "id": "2498",
+          "name": "Ski Republic Chamois Sport",
+          "lat": 45.296631,
+          "lng": 6.58126,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2498?referer=skiquality.com",
+          "address": "Résidence Le Chamois d'Or, Rue du Soleil"
+        },
+        {
+          "id": "2189",
+          "name": "Ski Republic Peclet",
+          "lat": 45.296768,
+          "lng": 6.58527,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2189?referer=skiquality.com",
+          "address": "Place Peclet"
+        },
+        {
+          "id": "394",
+          "name": "Top Sports",
+          "lat": 45.297924,
+          "lng": 6.580254,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/394?referer=skiquality.com",
+          "address": "Centre Commercial de Caron"
+        },
+        {
+          "id": "1866",
+          "name": "Val Loc 2400",
+          "lat": 45.300053,
+          "lng": 6.579405,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1866?referer=skiquality.com",
+          "address": "Résidence Val 2400 - Les Balcons"
+        }
+      ]
+    },
+    "valberg": {
+      "name": "Valberg",
+      "center": [
+        44.09442,
+        6.931932
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "182",
+          "name": "Blanche Neige Sport",
+          "lat": 44.094563,
+          "lng": 6.931616,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/182?referer=skiquality.com",
+          "address": "10 avenue de valberg"
+        },
+        {
+          "id": "4326",
+          "name": "Ekosport-rent Sandia Sports",
+          "lat": 44.094559,
+          "lng": 6.93188,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4326?referer=skiquality.com",
+          "address": "12 Avenue de Valberg"
+        },
+        {
+          "id": "4673",
+          "name": "Precision Ski Centre Station Alti'Sports",
+          "lat": 44.094139,
+          "lng": 6.932299,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4673?referer=skiquality.com",
+          "address": "14 avenue de Valberg,06470 Peone"
+        }
+      ]
+    },
+    "valfrejus": {
+      "name": "Valfréjus",
+      "center": [
+        45.172855,
+        6.651837
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4189",
+          "name": "Clic and ski Valfréjus",
+          "lat": 45.173161,
+          "lng": 6.652252,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4189?referer=skiquality.com",
+          "address": "590 rue des Bettets"
+        },
+        {
+          "id": "4073",
+          "name": "Ski Republic Centre Station Terra Modana Sport",
+          "lat": 45.17255,
+          "lng": 6.651422,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4073?referer=skiquality.com",
+          "address": "Pied des pistes 660 - Rue des Bettets - Résidence du Thabor"
+        }
+      ]
+    },
+    "vallandry": {
+      "name": "Vallandry",
+      "center": [
+        45.555611,
+        6.76195
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2176",
+          "name": "Ski Republic Vallandry - Centre",
+          "lat": 45.555611,
+          "lng": 6.76195,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2176?referer=skiquality.com",
+          "address": "La Maison de Vallandry"
+        }
+      ]
+    },
+    "valloire": {
+      "name": "Valloire",
+      "center": [
+        45.161111,
+        6.427527
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "397",
+          "name": "Martin Sports",
+          "lat": 45.163746,
+          "lng": 6.430163,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/397?referer=skiquality.com",
+          "address": "rue de Tig Immeuble Crêt de Peré"
+        },
+        {
+          "id": "1728",
+          "name": "Nagano Sport",
+          "lat": 45.1451,
+          "lng": 6.419627,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1728?referer=skiquality.com",
+          "address": "2306 Route Les Verneys"
+        },
+        {
+          "id": "2342",
+          "name": "Precision Ski Centre Station Magnin Sports",
+          "lat": 45.165852,
+          "lng": 6.427262,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2342?referer=skiquality.com",
+          "address": "Rue des Grandes Alpes"
+        },
+        {
+          "id": "1727",
+          "name": "Snow And Ski",
+          "lat": 45.165188,
+          "lng": 6.432134,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/1727?referer=skiquality.com",
+          "address": "Route du télégraphe - Zone des Charbonnières"
+        },
+        {
+          "id": "4209",
+          "name": "Snow and Ski Village",
+          "lat": 45.165668,
+          "lng": 6.42845,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4209?referer=skiquality.com",
+          "address": "Résidence l'étoile des neiges - Route des grandes alpes"
+        }
+      ]
+    },
+    "valmeinier": {
+      "name": "Valmeinier",
+      "center": [
+        45.174351,
+        6.4936
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2343",
+          "name": "Ski Republic Front De Neige Valmeinier Sport 1800",
+          "lat": 45.174351,
+          "lng": 6.4936,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2343?referer=skiquality.com",
+          "address": "Balcon des Islettes, Valmeinier 1800"
+        }
+      ]
+    },
+    "valmeinier-1500": {
+      "name": "Valmeinier 1500",
+      "center": [
+        45.187,
+        6.480062
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "399",
+          "name": "Jacky Sports 1500",
+          "lat": 45.187,
+          "lng": 6.480062,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/399?referer=skiquality.com",
+          "address": "Immeuble Plan du Bois"
+        }
+      ]
+    },
+    "valmeinier-1800": {
+      "name": "Valmeinier 1800",
+      "center": [
+        45.174305,
+        6.493562
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "2300",
+          "name": "Precision Ski Front De Neige Jackie Sports 1800",
+          "lat": 45.174332,
+          "lng": 6.493667,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2300?referer=skiquality.com",
+          "address": "Immeuble Le Chalet"
+        },
+        {
+          "id": "400",
+          "name": "Snow Flex",
+          "lat": 45.174278,
+          "lng": 6.493456,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/400?referer=skiquality.com",
+          "address": "60 Chemin des Petites Anglaises"
+        }
+      ]
+    },
+    "valmorel": {
+      "name": "Valmorel",
+      "center": [
+        45.461555,
+        6.442695
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "401",
+          "name": "Deguili Sports",
+          "lat": 45.46138,
+          "lng": 6.442092,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/401?referer=skiquality.com",
+          "address": "Rue du Bourg, Bourg Morel n°1"
+        },
+        {
+          "id": "3636",
+          "name": "Precision Ski Ski Xperience",
+          "lat": 45.461624,
+          "lng": 6.444014,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/3636?referer=skiquality.com",
+          "address": "21-27 Bourg Morel"
+        },
+        {
+          "id": "4749",
+          "name": "Wocan Delivery - Valmorel",
+          "lat": 45.46166,
+          "lng": 6.44198,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4749?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "vars": {
+      "name": "Vars",
+      "center": [
+        44.57038,
+        6.683334
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4792",
+          "name": "Ekosport-Rent L'Eterlou Sport",
+          "lat": 44.56943,
+          "lng": 6.683265,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4792?referer=skiquality.com",
+          "address": "Cr Georges Rohner"
+        },
+        {
+          "id": "257",
+          "name": "La Charpenterie Sports",
+          "lat": 44.567867,
+          "lng": 6.68529,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/257?referer=skiquality.com",
+          "address": "Face au point Show"
+        },
+        {
+          "id": "4138",
+          "name": "La Charpenterie Sports (Marmottons)",
+          "lat": 44.567505,
+          "lng": 6.685608,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4138?referer=skiquality.com",
+          "address": "Immeuble les Marmottons"
+        },
+        {
+          "id": "2500",
+          "name": "Ski Republic Centre Station Gliss Center",
+          "lat": 44.573555,
+          "lng": 6.681404,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/2500?referer=skiquality.com",
+          "address": "Immeuble Centre Vars"
+        },
+        {
+          "id": "258",
+          "name": "WESKI VARS",
+          "lat": 44.573544,
+          "lng": 6.681105,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/258?referer=skiquality.com",
+          "address": "Cours Fontanarosa, Centre Vars"
+        }
+      ]
+    },
+    "vaujany": {
+      "name": "Vaujany",
+      "center": [
+        45.158163,
+        6.079409
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "285",
+          "name": "Atou Sport",
+          "lat": 45.157955,
+          "lng": 6.079708,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/285?referer=skiquality.com",
+          "address": "474 route du col du sabot"
+        },
+        {
+          "id": "4322",
+          "name": "Ekosport-rent Ride For Life",
+          "lat": 45.158371,
+          "lng": 6.07911,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4322?referer=skiquality.com",
+          "address": "Place du téléphérique"
+        }
+      ]
+    },
+    "vilette": {
+      "name": "Vilette",
+      "center": [
+        45.54761,
+        6.61115
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4743",
+          "name": "Wocan Delivery - Vilette",
+          "lat": 45.54761,
+          "lng": 6.61115,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4743?referer=skiquality.com",
+          "address": "Hotel-Shop-Shuttle-Service"
+        }
+      ]
+    },
+    "villard-de-lans": {
+      "name": "Villard de Lans",
+      "center": [
+        45.060781,
+        5.556436
+      ],
+      "zoom": 14,
+      "shops": [
+        {
+          "id": "4937",
+          "name": "Ski Republic Les Glovettes Sport Evalsion",
+          "lat": 45.05178,
+          "lng": 5.56302,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/4937?referer=skiquality.com",
+          "address": "Galerie Commerciale Les Glovettes, Travée 9"
+        },
+        {
+          "id": "288",
+          "name": "Sport Vercors",
+          "lat": 45.069782,
+          "lng": 5.549852,
+          "website": "https://www.alpy.com/fr/location-ski/parameters/288?referer=skiquality.com",
+          "address": "38 Place des Martyrs - Centre Village"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,162 @@
+/* SkiQuality - Carte magasins de location de ski
+ * Usage: <div id="sq-shops" data-station="abondance" data-src="/path/to/shops.json"></div>
+ */
+(function () {
+  'use strict';
+
+  function init(container) {
+    var stationSlug = container.dataset.station;
+    var dataSrc = container.dataset.src || 'shops.json';
+
+    if (!stationSlug) {
+      container.innerHTML = '<div class="sq-shops-empty">Slug de station manquant (data-station).</div>';
+      return;
+    }
+
+    container.classList.add('sq-shops-widget');
+    container.innerHTML = '<div class="sq-shops-loading">Chargement de la carte…</div>';
+
+    fetch(dataSrc, { cache: 'no-cache' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('Fichier ' + dataSrc + ' introuvable (' + r.status + ')');
+        return r.json();
+      })
+      .then(function (data) { render(container, data, stationSlug); })
+      .catch(function (err) {
+        console.error('[SQ Shops]', err);
+        container.innerHTML = '<div class="sq-shops-empty">Impossible de charger la liste des magasins.<br><small>' + err.message + '</small></div>';
+      });
+  }
+
+  function render(container, data, slug) {
+    var station = data.stations && data.stations[slug];
+
+    if (!station || !station.shops || !station.shops.length) {
+      container.innerHTML =
+        '<div class="sq-shops-header"><h3>Magasins de location de ski</h3></div>' +
+        '<div class="sq-shops-empty">La liste des magasins partenaires pour cette station sera bient&ocirc;t disponible.</div>';
+      return;
+    }
+
+    var stationName = station.name || slug;
+    var shops = station.shops;
+
+    container.innerHTML =
+      '<div class="sq-shops-header">' +
+        '<h3>Magasins de location de ski &agrave; ' + escapeHtml(stationName) +
+        '<span class="sq-shops-count">' + shops.length + '</span></h3>' +
+        '<p>Cliquez sur un magasin pour le localiser sur la carte.</p>' +
+      '</div>' +
+      '<div class="sq-shops-map" id="sq-map-' + slug + '"></div>' +
+      '<div class="sq-shops-list" id="sq-list-' + slug + '"></div>';
+
+    var map = L.map('sq-map-' + slug, {
+      scrollWheelZoom: false,
+      zoomControl: true
+    }).setView(station.center, station.zoom || 14);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19
+    }).addTo(map);
+
+    map.on('click', function () { map.scrollWheelZoom.enable(); });
+    map.on('mouseout', function () { map.scrollWheelZoom.disable(); });
+
+    var markers = {};
+    var listEl = document.getElementById('sq-list-' + slug);
+
+    shops.forEach(function (shop, idx) {
+      var num = idx + 1;
+      var icon = L.divIcon({
+        className: 'sq-marker',
+        html: '<span>' + num + '</span>',
+        iconSize: [30, 30],
+        iconAnchor: [15, 30],
+        popupAnchor: [0, -28]
+      });
+
+      var marker = L.marker([shop.lat, shop.lng], { icon: icon }).addTo(map);
+      marker.bindPopup(popupHtml(shop, num));
+      marker.on('click', function () { highlight(shop.id); });
+      markers[shop.id] = { marker: marker, num: num };
+
+      listEl.insertAdjacentHTML('beforeend', cardHtml(shop, num));
+    });
+
+    listEl.addEventListener('click', function (e) {
+      var card = e.target.closest('.sq-shop-card');
+      if (!card) return;
+      // Ne pas trigger la carte si on a cliqué sur un lien à l'intérieur
+      if (e.target.closest('a, button.sq-btn')) return;
+      var id = card.dataset.id;
+      var entry = markers[id];
+      if (!entry) return;
+      map.flyTo(entry.marker.getLatLng(), 16, { duration: .6 });
+      entry.marker.openPopup();
+      highlight(id);
+    });
+
+    function highlight(id) {
+      Array.prototype.forEach.call(container.querySelectorAll('.sq-shop-card'), function (c) {
+        c.classList.toggle('is-active', c.dataset.id === id);
+      });
+      Object.keys(markers).forEach(function (key) {
+        var el = markers[key].marker.getElement();
+        if (el) el.classList.toggle('is-active', key === id);
+      });
+      var activeCard = container.querySelector('.sq-shop-card.is-active');
+      if (activeCard) activeCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+
+  function cardHtml(shop, num) {
+    var phoneClean = (shop.phone || '').replace(/\s/g, '');
+    return '' +
+      '<article class="sq-shop-card" data-id="' + escapeAttr(shop.id) + '">' +
+        '<h4 class="sq-shop-name"><span class="sq-shop-num">' + num + '</span>' + escapeHtml(shop.name) + '</h4>' +
+        (shop.address ? infoLine('pin', escapeHtml(shop.address)) : '') +
+        (shop.phone ? infoLine('phone', '<a href="tel:' + escapeAttr(phoneClean) + '">' + escapeHtml(shop.phone) + '</a>') : '') +
+        (shop.hours ? infoLine('clock', escapeHtml(shop.hours)) : '') +
+        '<div class="sq-shop-actions">' +
+          (shop.website ? '<a class="sq-btn sq-btn-primary" href="' + escapeAttr(shop.website) + '" target="_blank" rel="noopener">Voir les offres</a>' : '') +
+          '<a class="sq-btn" href="https://www.google.com/maps/dir/?api=1&destination=' + shop.lat + ',' + shop.lng + '" target="_blank" rel="noopener">Itin&eacute;raire</a>' +
+        '</div>' +
+      '</article>';
+  }
+
+  function popupHtml(shop, num) {
+    return '<div style="min-width:180px"><strong>' + num + '. ' + escapeHtml(shop.name) + '</strong>' +
+      (shop.address ? '<br><small>' + escapeHtml(shop.address) + '</small>' : '') +
+      (shop.phone ? '<br><a href="tel:' + escapeAttr(shop.phone.replace(/\s/g, '')) + '">' + escapeHtml(shop.phone) + '</a>' : '') +
+      '</div>';
+  }
+
+  var ICONS = {
+    pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-7.5-7-12a7 7 0 0114 0c0 4.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>',
+    phone: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg>',
+    clock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>'
+  };
+
+  function infoLine(iconKey, content) {
+    return '<div class="sq-shop-info">' + (ICONS[iconKey] || '') + '<span>' + content + '</span></div>';
+  }
+
+  function escapeHtml(str) {
+    return String(str == null ? '' : str)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function escapeAttr(str) { return escapeHtml(str); }
+
+  function boot() {
+    var nodes = document.querySelectorAll('[data-sq-shops], #sq-shops');
+    Array.prototype.forEach.call(nodes, init);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+})();
