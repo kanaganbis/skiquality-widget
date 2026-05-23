@@ -10,6 +10,8 @@
   --sq-radius: 12px;
   --sq-shadow: 0 2px 12px rgba(20, 35, 60, 0.08);
   font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
   color: var(--sq-text);
   max-width: 100%;
   margin: 0 auto;
@@ -23,12 +25,16 @@
 
 .sq-shops-header h3 {
   margin: 0 0 .25rem;
+  font-family: Playfairdisplay, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .sq-shops-header p {
   margin: 0;
   color: var(--sq-text-muted);
-  font-size: inherit;
+  font-size: 1rem;
 }
 
 .sq-shops-count {
@@ -86,7 +92,7 @@
 
 .sq-shop-name {
   font-weight: 600;
-  font-size: inherit;
+  font-size: 1rem;
   margin: 0;
   display: flex;
   align-items: center;
@@ -111,9 +117,9 @@
   display: flex;
   align-items: flex-start;
   gap: .4rem;
-  font-size: inherit;
+  font-size: 1rem;
   color: var(--sq-text-muted);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .sq-shop-info svg {
@@ -144,7 +150,7 @@
   gap: 4px;
   padding: 6px 12px;
   border-radius: 6px;
-  font-size: inherit;
+  font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
   border: 1px solid var(--sq-border);
