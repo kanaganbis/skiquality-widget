@@ -4,6 +4,11 @@
 (function () {
   'use strict';
 
+  var ALPY_WORKER_URL = 'https://skiquality-alpy.doraine.workers.dev/';
+  var NOMINATIM_URL = 'https://nominatim.openstreetmap.org/search';
+  var alpyShopsCache = null;
+  var alpyPromise = null;
+
   function init(container) {
     var stationSlug = container.dataset.station;
     var dataSrc = container.dataset.src || 'shops.json';
@@ -16,19 +21,109 @@
     container.classList.add('sq-shops-widget');
     container.innerHTML = '<div class="sq-shops-loading">Chargement de la carte…</div>';
 
-    fetch(dataSrc, { cache: 'reload' })
-      .then(function (r) {
+    Promise.all([
+      fetch(dataSrc, { cache: 'reload' }).then(function (r) {
         if (!r.ok) throw new Error('Fichier ' + dataSrc + ' introuvable (' + r.status + ')');
         return r.json();
+      }),
+      loadAlpyShops().catch(function (err) {
+        console.warn('[SQ Shops] Alpy indisponible, remises masquées :', err.message);
+        return [];
       })
-      .then(function (data) { render(container, data, stationSlug); })
+    ])
+      .then(function (results) {
+        render(container, results[0], stationSlug, results[1]);
+      })
       .catch(function (err) {
         console.error('[SQ Shops]', err);
         container.innerHTML = '<div class="sq-shops-empty">Impossible de charger la liste des magasins.<br><small>' + err.message + '</small></div>';
       });
   }
 
-  function render(container, data, slug) {
+  function loadAlpyShops() {
+    if (alpyShopsCache) return Promise.resolve(alpyShopsCache);
+    if (alpyPromise) return alpyPromise;
+    alpyPromise = fetch(ALPY_WORKER_URL)
+      .then(function (r) {
+        if (!r.ok) throw new Error('Alpy Worker HTTP ' + r.status);
+        return r.text();
+      })
+      .then(function (csv) {
+        alpyShopsCache = parseAlpyCSV(csv);
+        return alpyShopsCache;
+      });
+    return alpyPromise;
+  }
+
+  function parseAlpyCSV(text) {
+    var lines = text.split('\n');
+    var shops = [];
+    var seen = {};
+    for (var i = 1; i < lines.length; i++) {
+      var cols = [], cur = '', inQ = false;
+      for (var c = 0; c < lines[i].length; c++) {
+        var ch = lines[i][c];
+        if (ch === '"') inQ = !inQ;
+        else if (ch === ';' && !inQ) { cols.push(cur.replace(/^"|"$/g, '').trim()); cur = ''; }
+        else cur += ch;
+      }
+      cols.push(cur.replace(/^"|"$/g, '').trim());
+      if (cols.length < 20 || cols[6] !== 'fr' || cols[0] !== 'FR') continue;
+      var id = cols[4];
+      if (seen[id]) continue;
+      seen[id] = true;
+      var lat = parseFloat(cols[8]);
+      var lng = parseFloat(cols[9]);
+      if (isNaN(lat) || isNaN(lng)) continue;
+      shops.push({
+        id: id,
+        name: cols[5],
+        nameNorm: normName(cols[5]),
+        lat: lat,
+        lng: lng,
+        discount: Math.round(parseFloat(cols[19] || 0) * 100)
+      });
+    }
+    return shops;
+  }
+
+  function normName(s) {
+    return String(s || '').toLowerCase()
+      .replace(/[éèêë]/g, 'e').replace(/[îï]/g, 'i')
+      .replace(/[ôö]/g, 'o').replace(/[àâä]/g, 'a')
+      .replace(/[ùûü]/g, 'u').replace(/ç/g, 'c')
+      .replace(/[^a-z0-9]+/g, '');
+  }
+
+  function findAlpyMatch(shop, alpyShops) {
+    if (!alpyShops || !alpyShops.length) return null;
+    var target = normName(shop.name);
+    var bestByDist = null;
+    var bestDist = Infinity;
+    for (var i = 0; i < alpyShops.length; i++) {
+      var a = alpyShops[i];
+      var d = haversine(shop.lat, shop.lng, a.lat, a.lng);
+      if (a.nameNorm === target && d < 3000) return a;
+      if (d < 150 && d < bestDist) { bestByDist = a; bestDist = d; }
+    }
+    return bestByDist;
+  }
+
+  function haversine(lat1, lng1, lat2, lng2) {
+    var R = 6371000;
+    var dL = (lat2 - lat1) * Math.PI / 180;
+    var dG = (lng2 - lng1) * Math.PI / 180;
+    var x = Math.sin(dL / 2) * Math.sin(dL / 2) +
+            Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+            Math.sin(dG / 2) * Math.sin(dG / 2);
+    return Math.round(R * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x)));
+  }
+
+  function fmtDist(m) {
+    return m < 1000 ? m + ' m' : (m / 1000).toFixed(1) + ' km';
+  }
+
+  function render(container, data, slug, alpyShops) {
     var station = data.stations && data.stations[slug];
 
     if (!station || !station.shops || !station.shops.length) {
@@ -39,14 +134,29 @@
     }
 
     var stationName = station.name || slug;
-    var shops = station.shops;
+    var baseShops = station.shops.map(function (s) {
+      var match = findAlpyMatch(s, alpyShops);
+      return Object.assign({}, s, {
+        discount: match ? match.discount : 0
+      });
+    });
 
     container.innerHTML =
       '<div class="sq-shops-header">' +
         '<h3>Magasins de location de ski &agrave; ' + escapeHtml(stationName) +
-        '<span class="sq-shops-count">' + shops.length + '</span></h3>' +
-        '<p>Cliquez sur un magasin pour le localiser sur la carte.</p>' +
+          '<span class="sq-shops-count">' + baseShops.length + '</span></h3>' +
+        '<p>Indiquez votre h&eacute;bergement pour voir les magasins les plus proches.</p>' +
       '</div>' +
+      '<div class="sq-accom-bar">' +
+        '<input type="text" class="sq-accom-input" id="sq-accom-' + slug + '" ' +
+          'placeholder="Ex : H&ocirc;tel Le Blizzard, ' + escapeAttr(stationName) + '" autocomplete="off" />' +
+        '<button type="button" class="sq-accom-btn" id="sq-accom-btn-' + slug + '">' +
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>' +
+          '<span>Localiser</span>' +
+        '</button>' +
+        '<button type="button" class="sq-accom-reset" id="sq-accom-reset-' + slug + '" hidden>R&eacute;initialiser</button>' +
+      '</div>' +
+      '<div class="sq-accom-status" id="sq-accom-status-' + slug + '"></div>' +
       '<div class="sq-shops-map" id="sq-map-' + slug + '"></div>' +
       '<div class="sq-shops-list" id="sq-list-' + slug + '"></div>';
 
@@ -64,30 +174,46 @@
     map.on('mouseout', function () { map.scrollWheelZoom.disable(); });
 
     var markers = {};
+    var accomMarker = null;
+    var shopsState = baseShops.slice();
     var listEl = document.getElementById('sq-list-' + slug);
+    var statusEl = document.getElementById('sq-accom-status-' + slug);
+    var inputEl = document.getElementById('sq-accom-' + slug);
+    var btnEl = document.getElementById('sq-accom-btn-' + slug);
+    var resetEl = document.getElementById('sq-accom-reset-' + slug);
 
-    shops.forEach(function (shop, idx) {
-      var num = idx + 1;
-      var icon = L.divIcon({
-        className: 'sq-marker',
-        html: '<span>' + num + '</span>',
-        iconSize: [30, 30],
-        iconAnchor: [15, 30],
-        popupAnchor: [0, -28]
+    function buildMarkers() {
+      Object.keys(markers).forEach(function (k) { map.removeLayer(markers[k].marker); });
+      markers = {};
+      shopsState.forEach(function (shop, idx) {
+        var num = idx + 1;
+        var icon = L.divIcon({
+          className: 'sq-marker',
+          html: '<span>' + num + '</span>',
+          iconSize: [30, 30],
+          iconAnchor: [15, 30],
+          popupAnchor: [0, -28]
+        });
+        var marker = L.marker([shop.lat, shop.lng], { icon: icon }).addTo(map);
+        marker.bindPopup(popupHtml(shop, num));
+        marker.on('click', function () { highlight(shop.id); });
+        markers[shop.id] = { marker: marker, num: num };
       });
+    }
 
-      var marker = L.marker([shop.lat, shop.lng], { icon: icon }).addTo(map);
-      marker.bindPopup(popupHtml(shop, num));
-      marker.on('click', function () { highlight(shop.id); });
-      markers[shop.id] = { marker: marker, num: num };
+    function renderList() {
+      listEl.innerHTML = '';
+      shopsState.forEach(function (shop, idx) {
+        listEl.insertAdjacentHTML('beforeend', cardHtml(shop, idx + 1));
+      });
+    }
 
-      listEl.insertAdjacentHTML('beforeend', cardHtml(shop, num));
-    });
+    buildMarkers();
+    renderList();
 
     listEl.addEventListener('click', function (e) {
       var card = e.target.closest('.sq-shop-card');
       if (!card) return;
-      // Ne pas trigger la carte si on a cliqué sur un lien à l'intérieur
       if (e.target.closest('a, button.sq-btn')) return;
       var id = card.dataset.id;
       var entry = markers[id];
@@ -108,13 +234,120 @@
       var activeCard = container.querySelector('.sq-shop-card.is-active');
       if (activeCard) activeCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
+
+    function setStatus(msg, kind) {
+      statusEl.className = 'sq-accom-status' + (kind ? ' is-' + kind : '');
+      statusEl.innerHTML = msg || '';
+    }
+
+    function locateAccommodation() {
+      var query = inputEl.value.trim();
+      if (!query) {
+        setStatus('Entrez le nom de votre h&eacute;bergement.', 'error');
+        inputEl.focus();
+        return;
+      }
+      setStatus('<span class="sq-spinner"></span> Recherche de votre h&eacute;bergement…');
+      btnEl.disabled = true;
+
+      var bbox = computeBBox(baseShops, 0.08);
+      var qWithStation = query.toLowerCase().indexOf(stationName.toLowerCase()) === -1
+        ? query + ', ' + stationName
+        : query;
+
+      var url = NOMINATIM_URL + '?format=json&limit=1&countrycodes=fr,ch,it&addressdetails=0' +
+        '&viewbox=' + bbox.join(',') + '&bounded=1' +
+        '&q=' + encodeURIComponent(qWithStation);
+
+      fetch(url, { headers: { 'Accept-Language': 'fr' } })
+        .then(function (r) { return r.json(); })
+        .then(function (results) {
+          if (results && results.length) return results;
+          var fallbackUrl = NOMINATIM_URL + '?format=json&limit=1&countrycodes=fr,ch,it&q=' +
+            encodeURIComponent(qWithStation);
+          return fetch(fallbackUrl, { headers: { 'Accept-Language': 'fr' } })
+            .then(function (r) { return r.json(); });
+        })
+        .then(function (results) {
+          btnEl.disabled = false;
+          if (!results || !results.length) {
+            setStatus('H&eacute;bergement introuvable. V&eacute;rifiez l\'orthographe ou ajoutez le nom de la station.', 'error');
+            return;
+          }
+          var loc = results[0];
+          showAccommodation(parseFloat(loc.lat), parseFloat(loc.lon), loc.display_name);
+        })
+        .catch(function (err) {
+          btnEl.disabled = false;
+          setStatus('Erreur de g&eacute;olocalisation : ' + escapeHtml(err.message), 'error');
+        });
+    }
+
+    function showAccommodation(lat, lng, label) {
+      if (accomMarker) map.removeLayer(accomMarker);
+      var icon = L.divIcon({
+        className: 'sq-accom-marker',
+        html: '<span class="sq-accom-pulse"></span><span class="sq-accom-pulse sq-accom-pulse-2"></span><span class="sq-accom-dot"></span>',
+        iconSize: [24, 24],
+        iconAnchor: [12, 12],
+        popupAnchor: [0, -12]
+      });
+      accomMarker = L.marker([lat, lng], { icon: icon, zIndexOffset: 1000 }).addTo(map);
+      accomMarker.bindPopup('<strong>Votre h&eacute;bergement</strong><br><small>' + escapeHtml(label) + '</small>');
+
+      shopsState = baseShops
+        .map(function (s) { return Object.assign({}, s, { dist: haversine(lat, lng, s.lat, s.lng) }); })
+        .sort(function (a, b) { return a.dist - b.dist; });
+
+      buildMarkers();
+      renderList();
+
+      var bounds = L.latLngBounds([[lat, lng]]);
+      shopsState.slice(0, 5).forEach(function (s) { bounds.extend([s.lat, s.lng]); });
+      map.fitBounds(bounds, { padding: [40, 40], maxZoom: 15 });
+
+      var nearest = shopsState[0];
+      setStatus('H&eacute;bergement localis&eacute; — le plus proche : <strong>' + escapeHtml(nearest.name) + '</strong> &agrave; ' + fmtDist(nearest.dist) + '.', 'ok');
+      resetEl.hidden = false;
+    }
+
+    function resetAccommodation() {
+      if (accomMarker) { map.removeLayer(accomMarker); accomMarker = null; }
+      shopsState = baseShops.slice();
+      buildMarkers();
+      renderList();
+      map.setView(station.center, station.zoom || 14);
+      inputEl.value = '';
+      setStatus('');
+      resetEl.hidden = true;
+    }
+
+    btnEl.addEventListener('click', locateAccommodation);
+    inputEl.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); locateAccommodation(); }
+    });
+    resetEl.addEventListener('click', resetAccommodation);
+  }
+
+  function computeBBox(shops, margin) {
+    var lats = shops.map(function (s) { return s.lat; });
+    var lngs = shops.map(function (s) { return s.lng; });
+    var minLat = Math.min.apply(null, lats) - margin;
+    var maxLat = Math.max.apply(null, lats) + margin;
+    var minLng = Math.min.apply(null, lngs) - margin;
+    var maxLng = Math.max.apply(null, lngs) + margin;
+    return [minLng, maxLat, maxLng, minLat];
   }
 
   function cardHtml(shop, num) {
     var phoneClean = (shop.phone || '').replace(/\s/g, '');
     return '' +
       '<article class="sq-shop-card" data-id="' + escapeAttr(shop.id) + '">' +
-        '<h4 class="sq-shop-name"><span class="sq-shop-num">' + num + '</span>' + escapeHtml(shop.name) + '</h4>' +
+        '<div class="sq-shop-head">' +
+          '<h4 class="sq-shop-name"><span class="sq-shop-num">' + num + '</span>' + escapeHtml(shop.name) + '</h4>' +
+          (shop.dist !== undefined ? '<span class="sq-shop-dist">' + fmtDist(shop.dist) + '</span>' : '') +
+        '</div>' +
+        (shop.discount > 0 ? '<div class="sq-shop-discount">&minus;' + shop.discount + '% sur Alpy.com</div>' : '') +
         (shop.address ? infoLine('pin', escapeHtml(shop.address)) : '') +
         (shop.phone ? infoLine('phone', '<a href="tel:' + escapeAttr(phoneClean) + '">' + escapeHtml(shop.phone) + '</a>') : '') +
         (shop.hours ? infoLine('clock', escapeHtml(shop.hours)) : '') +
@@ -129,6 +362,7 @@
     return '<div style="min-width:180px"><strong>' + num + '. ' + escapeHtml(shop.name) + '</strong>' +
       (shop.address ? '<br><small>' + escapeHtml(shop.address) + '</small>' : '') +
       (shop.phone ? '<br><a href="tel:' + escapeAttr(shop.phone.replace(/\s/g, '')) + '">' + escapeHtml(shop.phone) + '</a>' : '') +
+      (shop.discount > 0 ? '<br><span style="display:inline-block;margin-top:4px;background:#ff3c00;color:#fff;padding:2px 8px;border-radius:999px;font-size:.75rem;font-weight:700">&minus;' + shop.discount + '% sur Alpy.com</span>' : '') +
       '</div>';
   }
 
