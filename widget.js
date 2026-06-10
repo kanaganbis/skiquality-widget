@@ -5,7 +5,6 @@
   'use strict';
 
   var ALPY_WORKER_URL = 'https://skiquality-alpy.doraine.workers.dev/';
-  var NOMINATIM_URL = 'https://nominatim.openstreetmap.org/search';
   var alpyShopsCache = null;
   var alpyPromise = null;
 
@@ -119,10 +118,6 @@
     return Math.round(R * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x)));
   }
 
-  function fmtDist(m) {
-    return m < 1000 ? m + ' m' : (m / 1000).toFixed(1) + ' km';
-  }
-
   function render(container, data, slug, alpyShops) {
     var station = data.stations && data.stations[slug];
 
@@ -145,18 +140,7 @@
       '<div class="sq-shops-header">' +
         '<h3>Magasins de location de ski &agrave; ' + escapeHtml(stationName) +
           '<span class="sq-shops-count">' + baseShops.length + '</span></h3>' +
-        '<p>Indiquez votre h&eacute;bergement pour voir les magasins les plus proches.</p>' +
       '</div>' +
-      '<div class="sq-accom-bar">' +
-        '<input type="text" class="sq-accom-input" id="sq-accom-' + slug + '" ' +
-          'placeholder="Ex : H&ocirc;tel Le Blizzard, ' + escapeAttr(stationName) + '" autocomplete="off" />' +
-        '<button type="button" class="sq-accom-btn" id="sq-accom-btn-' + slug + '">' +
-          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>' +
-          '<span>Localiser</span>' +
-        '</button>' +
-        '<button type="button" class="sq-accom-reset" id="sq-accom-reset-' + slug + '" hidden>R&eacute;initialiser</button>' +
-      '</div>' +
-      '<div class="sq-accom-status" id="sq-accom-status-' + slug + '"></div>' +
       '<div class="sq-shops-map" id="sq-map-' + slug + '"></div>' +
       '<div class="sq-shops-list" id="sq-list-' + slug + '"></div>';
 
@@ -174,13 +158,8 @@
     map.on('mouseout', function () { map.scrollWheelZoom.disable(); });
 
     var markers = {};
-    var accomMarker = null;
     var shopsState = baseShops.slice();
     var listEl = document.getElementById('sq-list-' + slug);
-    var statusEl = document.getElementById('sq-accom-status-' + slug);
-    var inputEl = document.getElementById('sq-accom-' + slug);
-    var btnEl = document.getElementById('sq-accom-btn-' + slug);
-    var resetEl = document.getElementById('sq-accom-reset-' + slug);
 
     function buildMarkers() {
       Object.keys(markers).forEach(function (k) { map.removeLayer(markers[k].marker); });
@@ -235,108 +214,6 @@
       if (activeCard) activeCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 
-    function setStatus(msg, kind) {
-      statusEl.className = 'sq-accom-status' + (kind ? ' is-' + kind : '');
-      statusEl.innerHTML = msg || '';
-    }
-
-    function locateAccommodation() {
-      var query = inputEl.value.trim();
-      if (!query) {
-        setStatus('Entrez le nom de votre h&eacute;bergement.', 'error');
-        inputEl.focus();
-        return;
-      }
-      setStatus('<span class="sq-spinner"></span> Recherche de votre h&eacute;bergement…');
-      btnEl.disabled = true;
-
-      var bbox = computeBBox(baseShops, 0.08);
-      var qWithStation = query.toLowerCase().indexOf(stationName.toLowerCase()) === -1
-        ? query + ', ' + stationName
-        : query;
-
-      var url = NOMINATIM_URL + '?format=json&limit=1&countrycodes=fr,ch,it&addressdetails=0' +
-        '&viewbox=' + bbox.join(',') + '&bounded=1' +
-        '&q=' + encodeURIComponent(qWithStation);
-
-      fetch(url, { headers: { 'Accept-Language': 'fr' } })
-        .then(function (r) { return r.json(); })
-        .then(function (results) {
-          if (results && results.length) return results;
-          var fallbackUrl = NOMINATIM_URL + '?format=json&limit=1&countrycodes=fr,ch,it&q=' +
-            encodeURIComponent(qWithStation);
-          return fetch(fallbackUrl, { headers: { 'Accept-Language': 'fr' } })
-            .then(function (r) { return r.json(); });
-        })
-        .then(function (results) {
-          btnEl.disabled = false;
-          if (!results || !results.length) {
-            setStatus('H&eacute;bergement introuvable. V&eacute;rifiez l\'orthographe ou ajoutez le nom de la station.', 'error');
-            return;
-          }
-          var loc = results[0];
-          showAccommodation(parseFloat(loc.lat), parseFloat(loc.lon), loc.display_name);
-        })
-        .catch(function (err) {
-          btnEl.disabled = false;
-          setStatus('Erreur de g&eacute;olocalisation : ' + escapeHtml(err.message), 'error');
-        });
-    }
-
-    function showAccommodation(lat, lng, label) {
-      if (accomMarker) map.removeLayer(accomMarker);
-      var icon = L.divIcon({
-        className: 'sq-accom-marker',
-        html: '<span class="sq-accom-pulse"></span><span class="sq-accom-pulse sq-accom-pulse-2"></span><span class="sq-accom-dot"></span>',
-        iconSize: [24, 24],
-        iconAnchor: [12, 12],
-        popupAnchor: [0, -12]
-      });
-      accomMarker = L.marker([lat, lng], { icon: icon, zIndexOffset: 1000 }).addTo(map);
-      accomMarker.bindPopup('<strong>Votre h&eacute;bergement</strong><br><small>' + escapeHtml(label) + '</small>');
-
-      shopsState = baseShops
-        .map(function (s) { return Object.assign({}, s, { dist: haversine(lat, lng, s.lat, s.lng) }); })
-        .sort(function (a, b) { return a.dist - b.dist; });
-
-      buildMarkers();
-      renderList();
-
-      var bounds = L.latLngBounds([[lat, lng]]);
-      shopsState.slice(0, 5).forEach(function (s) { bounds.extend([s.lat, s.lng]); });
-      map.fitBounds(bounds, { padding: [40, 40], maxZoom: 15 });
-
-      var nearest = shopsState[0];
-      setStatus('H&eacute;bergement localis&eacute; — le plus proche : <strong>' + escapeHtml(nearest.name) + '</strong> &agrave; ' + fmtDist(nearest.dist) + '.', 'ok');
-      resetEl.hidden = false;
-    }
-
-    function resetAccommodation() {
-      if (accomMarker) { map.removeLayer(accomMarker); accomMarker = null; }
-      shopsState = baseShops.slice();
-      buildMarkers();
-      renderList();
-      map.setView(station.center, station.zoom || 14);
-      inputEl.value = '';
-      setStatus('');
-      resetEl.hidden = true;
-    }
-
-    btnEl.addEventListener('click', locateAccommodation);
-    inputEl.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter') { e.preventDefault(); locateAccommodation(); }
-    });
-    resetEl.addEventListener('click', resetAccommodation);
-  }
-
-  function computeBBox(shops, margin) {
-    var lats = shops.map(function (s) { return s.lat; });
-    var lngs = shops.map(function (s) { return s.lng; });
-    var minLat = Math.min.apply(null, lats) - margin;
-    var maxLat = Math.max.apply(null, lats) + margin;
-    var minLng = Math.min.apply(null, lngs) - margin;
-    var maxLng = Math.max.apply(null, lngs) + margin;
-    return [minLng, maxLat, maxLng, minLat];
   }
 
   function cardHtml(shop, num) {
@@ -345,7 +222,6 @@
       '<article class="sq-shop-card" data-id="' + escapeAttr(shop.id) + '">' +
         '<div class="sq-shop-head">' +
           '<h4 class="sq-shop-name"><span class="sq-shop-num">' + num + '</span>' + escapeHtml(shop.name) + '</h4>' +
-          (shop.dist !== undefined ? '<span class="sq-shop-dist">' + fmtDist(shop.dist) + '</span>' : '') +
         '</div>' +
         (shop.discount > 0 ? '<div class="sq-shop-discount">&minus;' + shop.discount + '% sur Alpy.com</div>' : '') +
         (shop.address ? infoLine('pin', escapeHtml(shop.address)) : '') +
